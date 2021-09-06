@@ -3,6 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
+// import './css/media_query.css'
+import './css/dashboard_inner.css'
+import './css/dashboard_custom_styles.css'
+// import './css/global.css'
+// import './css/font-awesome.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import './css/bootstrap-glyphicons.css'  
 
 const WidgetDivs = document.querySelectorAll(".appointment-container");
 
@@ -19,7 +26,7 @@ const WidgetDivs = document.querySelectorAll(".appointment-container");
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    </React.StrictMode>,
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
