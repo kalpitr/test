@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+	<title>linkedin</title>
+	<defs>
+		<image  width="12" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAAXNSR0IB2cksfwAAAIpQTFRF9fP79fP79fP7////9fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP7cPm0EQAAAC50Uk5Tkul8AP9vwFsECQ0wNrbmnq3ym6fcK9O3xf7DxKr4MxHxu3D1snfzeoO6oa505Spn2/oAAABnSURBVHicRczJFsFQFETRyylEnyvhhWijCcL//54MnpWa7UEds16f/0xSh8Fw1IEExhOYzlrMF0tSX2VSvraNAkV73Eo7K7Un6HA8lTpHXKDSNeIGdz0iAtTyGCjgKdnL3zTewMe/P4tRBwyReNAZAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

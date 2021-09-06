@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" width="55" height="55">
+	<title>Patient-Registration</title>
+	<defs>
+		<image  width="53" height="51" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAzCAMAAAAAYbBfAAAAAXNSR0IB2cksfwAAAYxQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////TdZorgAAAIR0Uk5TAAZWlqqXVzne/zb2+tLM+QTWeAd310d/fUmBFBH+hZXr5pro45sCksslAYe7iGZBG/syDeLtHaH9WgUiCSh8rLmiZQue7mi2RM2MvqlbkMI4Rsrbj8RCmZhQMeADnbMKfl7TsDouzp9R3SYh99QMjXCTFUCCgDTVerVn9XLpi1SUVagf9tl2xwAAAc9JREFUeJzV1tVWw0AQBuANPhUobsWhQNFSpLgWb6G4FCvu7g4vTgOcspPdTcIFB/jvOs2XM9mNDCGESGHhEWqJjJIIk+gY0EpMtBIZjAAmc6w45jgAowEjSzyYEhLZDqgkJpkg2YJKKQCpqkZOGkA6KmQAZGoqaxZko0IO5GoiQvIgH/0OhwIdqhCKflnZiksEu1VSbBOqUpUbo1So7GXlolTY/8Rq/ANlqGRSpamqHZyNqtFSzloW1dV/HdXgauR12NTMpIU+zEl46pv5OdXa1t7R2WX9lurucb2vjrtXqewV1F3e108j50BoVQcVCj9fQ7Qapv7wYGXzUs/yCP3uG6VPVyghJU4O6sKnU40h1aZTjSM1oVNNIpWkU3mRmsKqclrOzCyj5rIoNO9HqvmzHOdn2AKlQif9UNKiW07uNNvi0lAILROsxGlaCYTU6ppOtb6BVmPTqkdtGQFne0dbeVygTMGuljLsMQhg/0BdWcwcBHCoro64CBw7ajOAfZyv4Ph93jjhq1MBAref+ADO+OpcpOCC+C/BccWdo66F6oaQi9vgzBZQfPjvgipWqM7lXeFc9X2wHmDLn3mQW5EenxTT5/BzsOx7Ecymm69vavBh0Go+m9YAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="1" y="2" />
+</svg>

@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 30" width="26" height="30">
+	<title>footer_location</title>
+	<defs>
+		<image  width="26" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAeCAMAAAAFBf7qAAAAAXNSR0IB2cksfwAAAThQTFRFzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM////zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM7U8epwAAAGh0Uk5TACt3ttvv8Ny4ezAAMbL/OHqEpbCiYHEQ1aem0RmJQzvSmgLy3QU8jo9E/AlBJJikF/5TgFRljGfMVlroSKuIrHatjeYP9RqWG7f0vSYK/XRpFcVdHx5YvrUoNAdOXoeXucnIA5uQZnAi9XAlAAABLElEQVR4nG2S10LCQBBFrxA1urKKDYMVu1gQFBsiIqIi9t57+f8/MHFm0+/LnsnJpswOwGmIRLXGpma9pVVwWLTFpB293a06pCdxR3VKX7qU6vYbcqbpCRopey2VsMs+I9lvFwOmGmTWhqyHD49wmRIYHSMcn8Dk1PQMBG9Mz2KO75rHgrVkxGKWLuSwRBDFMkFe8K+sIEOwijV+pVgnMMAd2oBGUBCbBDEUCbaQIiiJbYIydggq2K1aa3ZP8PZ95KTadlA7rNaPRIQv5HF8wnhKh3Cm2nEO9YlSXlxeXd/cqurObNS9DM2D1flkmKn9H8pjOkQl6CifguZZDcCL37w6Y1P0mjf3sNXd5t0zh2738elVKCuj+6bXzBcZQwQV4pb5FmEKP5XCLxz1B+UhNO+OvCp1AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

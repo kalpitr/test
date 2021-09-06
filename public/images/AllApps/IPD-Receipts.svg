@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" width="55" height="55">
+	<title>IPD-Receipts</title>
+	<defs>
+		<image  width="51" height="51" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAMAAAANf8AYAAAAAXNSR0IB2cksfwAAAapQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////C5ih0QAAAI50Uk5TACSvLqU3nDb/RPJR5QMNDHV5ozXKvjNA5EzYOlVKAQQ5rv1GR+pnIuxmTVT8hBHv/jRlmJDGi8CHBtv1HjDr+R+h8/q2AhMFCyFaq/a7axDc7XKIuad70Aktd31iDkMmzu4yYajdCjjZQWoPPViMhd8odsGZtZ/J1Jv4IAg+1kKmpL2ql40Uy6BgGUWTXiYir7oAAAJUSURBVHic7ZXpQxJBGId/LgIDCqikICIpdK2UlWZglxVpl2IFllmUHdqpldFtWZFl1//cvrPDuksLDn7pS8+HeWd459mZHWZmAaBBIeCgshFOCi4QLqo60UjBAd6rATpuRsBDpRdNFJp5opmqTfBS8ID3clsdn18jYOMEKOGzc9yClgqnpZywcSyYHCv/nX/ltAraKpy2csLGEQ2bvSOwc4JbNNptnHZKBK1Oh5dAiMowOilEeCJC1U6EKYTAe3Vgk3RFiW4g5uh2bgV6ohvRhV6aZTyBbREtbt+Bnbv+XmArvUioGn1I7tZ/2AOnugEJMcP+veIh+/ZLv9WAMfKgtHPAcIaknYOGk5J2koaTlnaGDwnl8BFpB0ePcWUkKq8Ax0+cZJlT8iutMzp2uk4DOHO2v67+w+fO004Yn8hOyirRC8ZaX7zkkzF8Ocu+zUtMMTal7bLy4bgcZ+xKQGT4N0tRpsVH7arenNEy17RnDxhPuK5JSkyvi7uqIC6MG3pTAW5muDN7i7gN3NGkpNUZLRAm5y7jzpx+rczfo5Hu+8zOA/HRelh2Ho1YnGlXgUZ6bHYqULDALA7vm2eLNZ0njD1V1WdYUNWl50wpFotJvGD5ms5Lxl4Zq86P66LmvK7pvGHs7ZzO0LvlceGEazrv4+utLD5IOVj5OCH4NDaZqerMftZJkWNiucSqOh7Rx8+d+XQ6HcRSLvdFX297Zyqts8qdr2z9/6nuWN5H0sm62Tf3GvseqsPp87OUf5WFfmx6bn7tHP3Er1KZ32gtDZrPXAUzfwBa/IsK9dWZFwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="2" y="2" />
+</svg>

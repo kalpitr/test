@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 12" width="6" height="12">
+	<title>facebook</title>
+	<defs>
+		<image  width="6" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAMCAMAAAB2iTwcAAAAAXNSR0IB2cksfwAAAFpQTFRF////9fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP7hcfNuAAAAB50Uk5TACC57+oC3P8mqU8aL528yaKyztm3HixaMV42ZvJWHMCWfQAAAEFJREFUeJwdikcOhEAAgLDi2sva9f/fdJQLCQGI4iSFLFeh0F8JldbQtNr1+MEw6vSHWcPBomvQpnvQoecbr+vmAVbDApg6gfmBAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

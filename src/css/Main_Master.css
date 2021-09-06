@@ -1,0 +1,734 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Medium.woff2') format('woff2'), url('../fonts/Montserrat-Medium.woff') format('woff'), url('../fonts/Montserrat-Medium.ttf') format('truetype'), url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.eot');
+    src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-SemiBold.woff2') format('woff2'), url('../fonts/Montserrat-SemiBold.woff') format('woff'), url('../fonts/Montserrat-SemiBold.ttf') format('truetype'), url('../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Regular.woff2') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.eot');
+    src: url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Light.woff2') format('woff2'), url('../fonts/Montserrat-Light.woff') format('woff'), url('../fonts/Montserrat-Light.ttf') format('truetype'), url('../fonts/Montserrat-Light.svg#Montserrat-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Thin.eot');
+    src: url('../fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Thin.woff2') format('woff2'), url('../fonts/Montserrat-Thin.woff') format('woff'), url('../fonts/Montserrat-Thin.ttf') format('truetype'), url('../fonts/Montserrat-Thin.svg#Montserrat-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat !important;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 40px;
+    background-color: #f6f7f9;
+}
+
+
+.Main_wrapper {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /*position: relative;*/
+    /*background-color: #f6f7f9;*/
+    margin-top: 82px;
+}
+
+.navbar {
+    min-height: 60px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 2px 8px #ddd;
+    box-shadow: 0px 2px 8px #ddd;
+}
+
+.navbar-brand {
+    height: 60px;
+    padding: 10px 15px;
+    line-height: 20px;
+}
+
+.LogoCls {
+    width: auto;
+    /*height: auto;*/
+    float: left;
+    /*max-width: 150px;*/
+    height: 40px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    border-bottom: 2px solid transparent;
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+}
+
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+        border-bottom: 2px solid #009039;
+    }
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    border-bottom: 2px solid #009039;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .navbar-right {
+        margin-right: 100px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container-fluid {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+/*sub menu*/
+.dropdown-menu.MenuLevl2 {
+    min-width: 250px;
+    max-height: 300px;
+}
+
+.MenuLevl2 {
+    /*position: fixed;
+    width: 250px;*/
+    /*height: auto;*/
+    height: auto;
+    /*display: none;*/
+    /*display: inline-block;*/
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px 0px 2px #ddd; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 1px 0px 2px #ddd; /* Firefox 3.5 - 3.6 */
+    box-shadow: 1px 0px 2px #ddd; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /*top: 60px;
+    left: 251px;*/
+    overflow: auto;
+}
+
+/*.MenuLevl2.show {
+        display: inline-block;
+    }*/
+
+ul.MenuLevl2 li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    width: 100%;
+    float: left;
+    padding: 0 5px;
+    border-left: 2px solid #fff;
+    margin: 2px 0;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+    ul.MenuLevl2 li a:hover {
+        background-color: #f5f6fa;
+        color: #000000;
+        border-left-color: #f5f6fa;
+    }
+
+    ul.MenuLevl2 li a img {
+        background: transparent;
+        border-radius: 50%;
+        padding: 0px;
+        width: 22px;
+        float: left;
+        text-align: center;
+        height: 40px;
+        line-height: 20px;
+        margin: 0 15px;
+    }
+
+        ul.MenuLevl2 li a img.show_icon_menu_hover1 {
+            display: none;
+        }
+
+    ul.MenuLevl2 li a:hover img.show_icon_menu1 {
+        display: none;
+    }
+
+    ul.MenuLevl2 li a:hover img.show_icon_menu_hover1 {
+        display: inline-block;
+    }
+
+    ul.MenuLevl2 li a span {
+        float: left;
+        line-height: 40px;
+    }
+
+
+
+@media (max-width:767px) {
+    .MenuLevl2 {
+        width: 230px;
+        position: static;
+        background-color: #dddddd;
+    }
+}
+
+.MenuRightSec {
+    width: 100px;
+    height: auto;
+    float: left;
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+.UlMenuRightSec {
+    width: 100%;
+    height: auto;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 8px 0;
+}
+
+    .UlMenuRightSec .bell_icon {
+        width: 25px;
+        height: 25px;
+        overflow: hidden;
+        float: left;
+        margin: 8px 10px 8px 0;
+    }
+
+        .UlMenuRightSec .bell_icon img {
+            width: 80%;
+            height: 80%;
+            margin-top: 10%;
+        }
+
+/*---this style for notification dot red color---*/
+@keyframes flickerAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes flickerAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes flickerAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes flickerAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.red_dot {
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+    background: red;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    border-radius: 50%;
+    left: 16px;
+    top: 18px;
+}
+
+.MenuRightSec .dropdown-menu.pull-right {
+    top: 53px;
+    text-align: center;
+}
+
+    .MenuRightSec .dropdown-menu.pull-right li {
+        width: 100%;
+        float: left;
+        margin: 4px 0;
+    }
+
+.InrProfDtl {
+    width: 100%;
+    float: left;
+    /*border-bottom: 1px solid #e5e5e5;*/
+    text-align: center !important;
+    padding: 3px 20px !important;
+}
+
+    .InrProfDtl .profileImgInr {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+    }
+
+    .InrProfDtl .InrProfDtlSpan1 {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        color: #000;
+        float: left;
+        font-weight: 600;
+    }
+
+    .InrProfDtl .InrProfDtlSpan2 {
+        width: 100%;
+        height: auto;
+        font-size: 11px;
+        color: #b7b7b8;
+        float: left;
+        font-weight: 600;
+    }
+
+.MenuRightSec .dropdown-menu.pull-right li > a {
+    font-size: 11px;
+    text-align: left;
+    padding: 6px 10px 5px 35px;
+    color: #dcddde;
+}
+
+.BtnSignOut {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    border: 1px solid #dcddde;
+    color: #bfbfbf;
+    background-color: transparent;
+    font-size: 11px;
+    padding: 8px 15px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+
+
+/*footer style*/
+.footer {
+    /*height: 50px;*/
+    background-image: linear-gradient(to right, #145ea9, #106a9c, #03b75c);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    left: 0;
+    bottom: 0;
+}
+
+    .footer p {
+        padding: 0;
+        margin: 0;
+        line-height: 40px;
+    }
+
+.float_lft {
+    float: left;
+}
+
+.float_rgt {
+    float: right;
+}
+
+.colorRed {
+    color: #f00;
+}
+
+
+/*page content*/
+.ActnOptnDiv {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0;
+}
+
+.ActnOptnUl {
+    width: 100%;
+    height: auto;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .ActnOptnUl li {
+        width: auto;
+        height: auto;
+        float: left;
+        margin: 0 10px 0 0;
+    }
+
+.BtnActnOptn {
+    padding: 5px;
+    margin: 0;
+    float: left;
+    border: none;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #f1f2f6;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+    .BtnActnOptn > img {
+        width: 28px;
+        height: 28px;
+        float: left;
+        margin-right: 5px;
+        border: 1px solid #f1f2f6;
+        border-radius: 50%;
+        padding: 5px;
+        background-color: #fff;
+    }
+
+    .BtnActnOptn > span {
+        width: 55px;
+        height: auto;
+        float: left;
+        font-weight: bold;
+        color: #999;
+        font-size: 12px;
+        line-height: 28px;
+    }
+
+
+
+/*content area css*/
+.ContArea {
+    width: 100%;
+    height: auto;
+    float: left;
+    /*box-shadow: inset 0px 0px 4px #969799;*/
+    border: 1px solid #e8eaef;
+    padding: 0 15px;
+    background-color: #fff;
+    margin: 15px 0 15px;
+    min-height: 420px;
+}
+
+.ContTitle {
+    /*width: 100%;*/
+    height: auto;
+    /*float: left;*/
+    font-size: 16px;
+    padding: 10px 15px;
+    /*margin: 0;*/
+    color: #ffffff;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #03b75c, #145ea9, #106a9c );
+    margin: 0 -15px 15px;
+}
+
+
+.form-group2 label {
+    font-size: 12px;
+    margin: 0;
+}
+
+.form-group2 .form-control {
+    font-size: 12px;
+    margin: 0;
+    border-color: transparent;
+    background-color: #edeef3;
+    box-shadow: none;
+}
+
+
+
+
+
+
+/*check box style start*/
+/* Customize the label (the container) */
+.ClsChkBox {
+    display: block;
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*width: 22px;*/
+    width: auto;
+    float: left;
+    height: 22px;
+}
+
+    /* Hide the browser's default checkbox */
+    .ClsChkBox input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #edeef3;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+/* On mouse-over, add a grey background color */
+.ClsChkBox:hover input ~ .checkmark {
+    background-color: #edeef3;
+}
+
+/* When the checkbox is checked, add a blue background */
+.ClsChkBox input:checked ~ .checkmark {
+    background-color: #edeef3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.ClsChkBox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.ClsChkBox .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid #e41937;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*check box style end*/
+
+
+
+
+
+/*responsive style css*/
+@media (min-width:320px) and (max-width:767px) {
+    .MenuRightSec {
+        right: 50px;
+    }
+    .navbar-toggle {
+        padding: 14px 10px;
+    }
+    
+}
+@media (min-width:320px) and (max-width:480px) {
+    .MenuRightSec {
+        right: 50px;
+    }
+
+    .ActnOptnUl li {
+        width: 46%;
+        margin: 0 4% 5px 0;
+    }
+
+    .BtnActnOptn {
+        width: 100%;
+    }
+}
+
+
+
+/*---new style at 14-11-2019 by vikash---*/
+.txt_cntr { text-align: center; }
+.Width80 {
+    width: 80px;
+}
+
+
+.PrimaryBtn {
+    background-color: transparent;
+    color: #009039;
+    padding: 4px 4px;
+    display: inline-block;
+    font-family: 'Montserrat';
+    text-transform: capitalize;
+    font-size: 12px;
+    border: 2px solid #018837;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    font-weight: 600;
+}
+    .PrimaryBtn:hover {
+        color: #ffffff;
+        background-color: #009039;
+        /*box-shadow: 1px 1px 2px #aaa;*/
+        -webkit-box-shadow: 1px 1px 2px #aaa;
+    }
+
+.SecHeadOutr {
+    width: 100%;
+    height: auto;
+    float: left;
+    border: 1px solid #cccccc75;
+}
+.SecH4 {
+    width: 100%;
+    height: auto;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-bottom: 0px solid #ccc;
+    margin: 0 0 10px 0;
+    background-color: rgba(20, 93, 161, 0.2);
+}
+.pad_lft_0 {
+    padding-left: 0;
+}
+.pad_rgt_0 {
+    padding-right: 0;
+}
+.txt_rgt {
+    text-align: right;
+}
+.Legend_section {
+    color: red;
+}
+.mb_15 {
+    margin-bottom: 15px;
+}
+.mt_15 {
+    margin-top: 15px;
+}
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+}
+.Width130 {
+    width: 130px;
+}
+.dashboard_inner_card_head .thumbnail:hover {
+    box-shadow: 2px 2px 15px #e7e8ea;
+}
+.dashboard_inner_card_head .thumbnail {
+    text-align: center;
+    padding-top: 20px;
+    border-radius: inherit;
+    border-color: #fff;
+    cursor:pointer;
+}
+.inner_icon {
+    background: #edeef3;
+    text-align: center;
+    width: 75px;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 75px;
+    padding: 7px;
+}
+.rounded-circle {
+    height: 50px;
+    width: 50px;
+    padding-top: 9px;
+}
+.card_line {
+    background: #2c2f34;
+    height: 2px;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    .dashboard_inner_card_head .thumbnail .caption {
+        min-height: 90px;
+    }
+/*---end of new style at 14-11-2019 by vikash---*/

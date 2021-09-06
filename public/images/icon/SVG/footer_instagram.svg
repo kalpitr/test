@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27" width="27" height="27">
+	<title>footer_instagram</title>
+	<defs>
+		<image  width="27" height="27" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAMAAAC6CgRnAAAAAXNSR0IB2cksfwAAAVZQTFRFzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM////zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMB4NkrwAAAHJ0Uk5TAGW04vLkuGoALdD/1zYm+jDfkIf36gRh/lEr9XC/4HqrrcrrxB4JHF2+CBUs7fZZIAtQ3R8PrPMxXthnU5ejRc5WyO9KEwwYJz0RDhsCVP1EX2/CSa47bOPndfhLMkHx7L0QTrfuzXcBBy86N9tAA3Hl2RbYrwAAATFJREFUeJx10ldTAjEUBeCDoF69CFZQV+xiFxUVFWxYUEFRsWHDjr38/xeDhMxmlj0vyZ5vZzPZuYCIo8LpMqeyqppEhNTUsjXuuoJ5vGVIpF5Yg7VubGpmbvHBb5HWNqJ2g7kDAYt1Ulc39TD3ok91/f6B4ODQMPPI6Bi5mccxUaIQEJycAk1zeGZ2ThQGIpLmsbAolnCUPLKJwFXcxLAkq2VaKW5c0laxps51UFyzENaVeWlDs80t0yUSPs2wbbId0mw3abLUnmb76i7MaTrQLI5DZUeU0YyPsSzphE5L95PfSntwdi7W7AWl5G+MwJCvX14BiesU6CYnGwO36py72D2SD4/q+QkZtsszoraWx0vWhnKvwJuNvRfm8+OzjDi//mcX3z+BX22us5l8UMz1H23GNme3CqnUAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

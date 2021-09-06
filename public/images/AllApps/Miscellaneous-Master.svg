@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" width="55" height="55">
+	<title>Miscellaneous-Master</title>
+	<defs>
+		<image  width="45" height="51" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAzCAMAAAA0GHFDAAAAAXNSR0IB2cksfwAAAYBQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////D+WI+wAAAIB0Uk5TAGqqqWcz/zBM5vTMzvtKpdDGZuDBu8IXGQ+ZLAF81N3JSVb1j0iT7vIGAp3nbWjqnoGLvb73eC8S1TdES/liKgn9V29+laaEBSKDiHYegnkLE31/FRB7gBiUTop1Yw0nmlWQXnSGU2lxX3oWZFlbBwxgYSYRKOtz7FBSLS6tCvjdGer5AAABfUlEQVR4nOXW50/CQBgG8AMXgqJWFK2CAxUBUdwDR8UBei5U3OAARdx7K/+6Vw1a6L3tmfjBxOfD0+Tt78M1uWsOIY1WKVnZSJqcXJXkSbVO8iJfrzcYDAWFadoI6aLiEo6klE1TI9OmMiDlNG1GQCr+ha7keb6KWcvyl3W1xVpDS20dTddD+8tmpugGcDs2UnQTqHUM2mYnaWbUJoc4dLrYdItbPH2tVsaVsK67zcWn4rGr6nbJtENV6zu/znNX9y+vm0X3gLqXovv6Aeyh7m/HgNc7+PF+aNj7nREEngZBxKO+zLGSHpONFfS4fAzrCfkU1pNOdu30Byg4paem8YwwO4fnF4KLeGk5tIJX12C9Th4bm6R8blJb4c+PjGCMtyl6hzx290hFY6QsGlJ++B8rQuM+qYM4qcMEqSNYH59wp4FgmDs7v0hwlxEhyl2FAH19A+SWphWjpO/uYw/s+hGhJ3b9jNALu359E7QKOvN+kkxmDNLuJyj+g7vPO4nbWUHixi6QAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="5" y="2" />
+</svg>

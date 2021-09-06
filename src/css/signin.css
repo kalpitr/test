@@ -1,0 +1,1411 @@
+
+body {
+	font-family: 'Montserrat';
+	margin: 0;
+	font-weight: normal;
+}
+.bg_one {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: url('../images/Login-Icons/BG-01.svg') transparent;
+	background-size: 100%;
+	z-index: -1;
+}
+.signin_container {
+	display: block;
+	width: 890px;
+	min-height: 470px;
+	background-color: #fff;
+	box-shadow: 0px 2px 30px #ccc6;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+	margin-top: 7%;
+	/*overflow: hidden;*/
+}
+
+.signin_box {
+	width: 500px;
+	min-height: auto;
+	height: auto;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 53px 50px;
+	border-radius: 2px;
+	transition: all .1s ease-in-out;
+	float: left;
+	overflow-y: auto;
+	display: table-cell;
+	border-right: 2px solid #f1f1f1;
+	z-index: 1;
+    position: relative;
+}
+.signin_head {
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+    line-height: 20px;
+	transition: all .1s ease-in-out;
+}
+
+.btn {
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	height: 44px;
+	border-radius: 4px;
+	letter-spacing: .5;
+	font-size: 14px;
+	font-weight: 600;
+	outline: none;
+	border: none;
+	margin: auto;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	transition: all .2s ease-in-out;
+}
+
+.blue {
+	box-shadow: 0px 2px 2px #fff;
+	background-color: #159AFF;
+	color: #fff;
+}
+
+.blue:hover {
+	box-shadow: 0px 2px 2px rgba(90, 183, 254, 0.2);
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+
+.DocVeda_logo {
+	display: block;
+	height: 40px;
+	width: auto;
+	margin-bottom: 20px;
+	background: url('../images/Login-Icons/DocVedaLogo-01.svg') no-repeat transparent;
+	background-size: auto 100%;
+}
+
+.product_img {
+	display: block;
+	height: 180px;
+	width: 180px;
+	background: url('../images/img.png') no-repeat transparent;
+	background-size: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.product_head {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.product_text {
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.fed_2show {
+	display: block;
+}
+.signin_fed_text {
+	display: block;
+	font-size: 15px;
+	font-weight: 500;
+	color: #444;
+	margin-bottom: 10px;
+}
+
+
+
+/*--------------recovery----------------*/
+.recovery_div {
+	display: block;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+.recovery_option {
+	display: block;
+	cursor: pointer;
+	padding: 20px 50px;
+	width: 400px;
+	position: relative;
+	left: -50px;
+}
+.recovery_icon {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	margin-right: 15px;
+	float: left;
+}
+.recovery_resend {
+	background: url("resend.png") no-repeat transparent;
+	background-size: 100%;
+}
+.deviceinfo{display: none;}
+.deviceinfo,.deviceicon {
+    color: #159AFF;
+    height: 20px;
+    width: 20px;
+    margin: 30px 0;
+    position: absolute;
+    float: left;
+    margin: 0;
+    font-size: 24px;
+}
+.devicetext{
+	margin: 0 auto;
+    margin-left: 30px;
+}
+.devicedetails,.deviceparent{
+	text-align: center;
+	display: none;
+	margin:30px auto;
+}
+.recovery_wifioff {
+	background: url("wifioff.png") no-repeat transparent;
+	background-size: 100%;
+}
+.recovery_backup {
+	background: url("backup.png") no-repeat transparent;
+	background-size: 100%;
+}
+.recovery_message {
+	background: url("message.png") no-repeat transparent;
+	background-size: 100%;
+}
+.recovery_call {
+	background: url("CALL.png") no-repeat transparent;
+	background-size: 100%;
+}
+.recovery_content {
+	display: inline-block;
+	width: 300px;
+}
+.recovery_mode {
+	display: block;
+	font-size: 16px;
+	color: #000;
+	font-weight: 500;
+}
+.recovery_mode_details {
+	display: block;
+	font-size: 13px;
+	color: #696969;
+	line-height: 16px;
+	margin-top: 5px;
+}
+.arrowright {
+	display: inline-block;
+	height: 8px;
+	width: 8px;
+	border-right: 2px solid #159aff;
+	border-bottom: 2px solid #159aff;
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	margin: auto 10px;
+	transition: all .2s ease;
+	opacity: 0;
+}
+.recovery_option:hover {
+	background-color: #f9f9f9;
+}
+.recovery_option:hover  .arrowright {
+	opacity: 1;
+	margin-left: 50px;
+}
+
+#otp_container,#enableotpoption,#mfa_ga_container,#mfa_otp_container,#mfa_totp_container,#recoverybtn,#recovery_container,#enableforgot,#enablesaml,.trustbrowser_ui,#backup_ver_container,#backup_container,#enablemore,.password_expiry_container{
+	display:none;
+}
+.errorlabel {
+    color: #E92B2B;
+}
+.fielderror{
+	display:none;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.textbox_actions,.textbox_actions_saml,.textbox_actions_more {
+    display: block;
+    margin-top: 20px;
+    height: 20px;
+}
+.bluetext_action {
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    color: #159AFF;
+    font-weight:500;
+    line-height: 16px;
+    cursor: pointer;
+}
+.bluetext_action a{
+	text-decoration: none;
+}
+.bluetext_action_right {
+    float: right;
+}
+.textbox_actions {
+    display: block;
+    margin-top: 20px;
+    height: 20px;
+}
+.rightside_box {
+	width: 390px;
+	height: auto;
+	float: right;
+	box-sizing: border-box;
+	padding: 40px;
+	background-color: #fff;
+	display:table-cell;
+	z-index: 2;
+	position: relative;
+}
+.product_img {
+	display: block;
+	height: 180px;
+	width: 180px;
+	background: url(../images/Login-Icons/SecureLogin-01.svg) no-repeat transparent;
+	background-size: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.product_head {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.product_text {
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.tfa_otp_mode {
+    display: block;
+    height: 200px;
+    width: 250px;
+    background: url(../images/smsnew.png) no-repeat transparent;
+    background-size: 100%;
+    margin: 30px auto;
+}
+.tfa_ga_mode {
+    display: block;
+    height: 200px;
+    width: 250px;
+    background: url(../images/ga.png) no-repeat transparent;
+    background-size: 100%;
+    margin: 30px auto;
+}
+.tfa_faceid_mode {
+    display: block;
+    height: 200px;
+    width: 250px;
+    background: url(../images/faceid.png) no-repeat transparent;
+    background-size: 100%;
+    margin: 30px auto;
+}
+.tfa_yubikey_mode {
+    display: block;
+    height: 200px;
+    width: 250px;
+    background: url(../images/yubi-key.png) no-repeat transparent;
+    background-size: 100%;
+    margin: 30px auto;
+}
+.tfa_totp_mode {
+    display: block;
+    height: 200px;
+    width: 250px;
+    background: url(../images/totp.png) no-repeat transparent;
+    background-size: 100%;
+    margin: 30px auto;
+}
+.tfa_scanqr_mode{
+	display: block;
+    height: 200px;
+    width: 250px;
+    background: url(../images/scanqr.png) no-repeat transparent;
+    background-size: 100%;
+    margin: 30px auto;
+}
+.tfa_push_mode{
+	display: block;
+    height: 200px;
+    width: 250px;
+    background: url(../images/push.png) no-repeat transparent;
+    background-size: 100%;
+    margin: 30px auto;
+}
+.tfa_touch_mode{
+	display: block;
+    height: 200px;
+    width: 250px;
+    background: url(../images/touchid.png) no-repeat transparent;
+    background-size: 100%;
+    margin: 30px auto;
+}
+.qrcodecontainer {
+	display: block;
+	margin: auto;
+	height: 100px;
+	width: 100px;
+	border-radius: 6px;
+	border: 2.5px solid #159AFF;
+	background-color: #EFF8FF;
+	margin-bottom: 30px;
+}
+
+.qrcodecontainer:after {
+	display: block;
+	content: "";
+	height: 70px;
+	width: 106px;
+	background-color: #EFF8FF;
+	position: absolute;
+	margin-top: -85px;
+	margin-left: -3px;
+}
+.qrcodecontainer:before {
+	display: block;
+	content: "";
+	height: 106px;
+	width: 70px;
+	background-color: #EFF8FF;
+	position: absolute;
+	margin-top: -3px;
+	margin-left: 15px;
+}
+#qrimg {
+	display: block;
+    height: 120px;
+    width: 120px;
+    margin: -10px;
+    background-size: 100%;
+    mix-blend-mode: multiply;
+    position: relative;
+    z-index: 2;
+}
+
+#captcha,#bcaptcha{background: #fff;width:60%;display: inline-block;}
+#captcha_img,#bcaptcha_img{width: 40%;float: right;background-color: #FFFFFF;border-left: none;}
+#captcha_img img,#bcaptcha_img img{height: 40px;}
+.reloadcaptcha{
+	float: right;
+	clear: both;
+	margin-top: -37px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	background: url(../images/reload.png) no-repeat transparent 5px;
+	background-size: 50%;
+	display: inline-block;
+	cursor: pointer;
+}
+.options
+{
+	display: block;
+	width: 100%;
+	max-width: 500px;
+	min-height: 80px;
+	padding: 0px 50px;
+	cursor: pointer;
+}
+.options:hover
+{
+	background-color: #F9F9F9;
+}
+.option_details
+{
+	display: inline-block;
+	height: auto;
+	width: 320px;
+	margin: 20px 0px;
+	margin-left: 15px;
+}
+.option_title
+{
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+}
+.img_option{
+	display: table-cell;
+    height: 24px;
+    width: 24px;
+    color: #499aff;
+    font-size: 24px;
+    vertical-align: top;
+}
+ #hideback{
+    margin:40px auto;
+    text-align: center;
+ }
+ #mfa_device_container,#recoverytitle{display: none;}
+.fed_div
+		{
+			display: none;
+			cursor:pointer;
+			height: 30px;
+			width:40px;
+			border-radius:15px;
+			margin:5px 5px;
+			box-sizing: border-box;
+			padding: 5px;
+			cursor: pointer;
+			float: left;
+		}
+		.fed_div div
+		{
+			display: block;
+			width:fit-content;
+			width: -moz-fit-content;
+			margin: auto;
+		}
+		.google_fed
+		{
+		 	margin-bottom: 0px;
+    margin-right: 10px;
+    max-width: 120px;
+    margin: 0px 10px 0 0;
+    width: 40%;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #66666642;
+    /* height: 40px; */
+    /* padding: 10px; */
+    padding-top: 3px;
+		}
+		.google_fed .fed_text{
+		display: inline-block !important;}
+		.fed_icon
+		{
+			display: inline-block;
+			height: 16px;
+			width: 16px;			
+			float: left;
+		}
+		.google_icon
+		{
+			background: url("../images/signin_icons.png") no-repeat transparent -10px -10px;
+			background-size: 140px;
+			margin: 2px 0px;
+		}
+		
+		.fed_text
+		{
+			display: none;
+			font-size: 12px;
+			letter-spacing: .2;
+			color: #757575;
+			line-height: 20px;
+			margin-left: 10px;
+		}
+		
+		.azure_fed
+		{
+			background-color: #FFECE6;
+		}
+		.azure_fed .fed_text
+		{
+			color: #FF480C;
+		}
+		.azure_icon
+		{
+			background: url("../images/signin_icons.png") no-repeat transparent -36px -10px;
+			background-size: 140px;
+			margin: 2px 0px;
+		}	
+		
+		.linkedin_fed
+		{
+			background-color: #007CB8;
+		}
+		.linkedin_fed .fed_text
+		{
+			color: #fff;
+		}
+		.linkedin_icon
+		{
+			background: url("../images/signin_icons.png") no-repeat transparent -62px -10px;
+			background-size: 140px;
+			margin: 2px 0px;
+		}
+		
+		.twitter_fed
+		{
+			background-color: #00A2F6;
+		}
+		.twitter_fed .fed_text
+		{
+			color: #fff;
+		}
+		.twitter_icon
+		{
+			background: url("../images/signin_icons.png") no-repeat transparent -10px -36px;
+			background-size: 140px;
+			margin: 2px 0px;
+		}	
+		.wechat_fed
+		{
+			background-color: #00C759;
+		}
+		.wechat_fed .fed_text
+		{
+			color: #fff;
+		}
+		.wechat_icon
+		{
+			background: url("../images/signin_icons.png") no-repeat transparent -36px -36px;
+			background-size: 140px;
+			margin: 2px 0px;
+		}	
+		.weibo_fed
+		{
+			background-color: #fff;
+			border: 2px solid #EEEEEE;
+		}
+		.weibo_fed .fed_text
+		{
+			color: #000;
+			line-height: 16px;
+		}
+		.weibo_icon
+		{
+			background: url("../images/signin_icons.png") no-repeat transparent -62px -36px;
+			background-size: 140px;
+			
+		}	
+		.douban_fed
+		{
+			background-color: #fff;
+			border: 2px solid #EEEEEE;
+		}
+		.douban_fed .fed_text
+		{
+			color: #000;
+			line-height: 16px;
+		}
+		.douban_icon
+		{
+		    width: 34px;
+		    background: url("../images/signin_icons.png") no-repeat transparent -88px -10px;
+		    background-size: 140px;
+		    transform: scale(.7);
+		    margin-left: -3px;
+			
+		}
+		.slack_icon
+		{
+			display: block;
+			height: 18px;
+		    width: 18px;
+		    background: url("../images/signin_icons.png") no-repeat transparent -10px -63px;
+			margin: auto;
+			float: none;
+		}
+		.facebook_fed
+		{
+			background-color: #2554A2;
+			padding: 13px;
+		}
+		.yahoo_fed
+		{
+			background-color:#662D91;
+			padding: 13px;
+		}
+		.facebook_icon
+		{
+			display: block;
+			height: 14px;
+			width: 72px;
+			background: url("../images/signin_icons.png") no-repeat transparent -10px -150px ; 
+			background-size: 140px;
+			margin: auto;
+			float: none;
+		}
+		.yahoo_icon
+		{
+			display: block;
+			height: 18px;
+			width: 72px;
+			background: url("../images/signin_icons.png") no-repeat transparent -10px -172px ; 
+			background-size: 140px;
+			margin: auto;
+			float: none;
+		}
+		.qq_fed
+		{
+			background-color: #fff;
+			border: 2px solid #EEEEEE;
+			padding: 8px;
+		}
+		.qq_icon
+		{
+			display: block;
+		    height: 20px;
+		    width: 20px;
+		    background: url("../images/signin_icons.png") no-repeat transparent -82px -60px;
+		    background-size: 140px;
+		    transform: scale(.8);
+		    margin: -4px 0px;
+		    float: left;
+		}
+		.baidu_fed
+		{
+			background-color: #fff;
+			border: 2px solid #EEEEEE;
+			padding: 8px;
+		}
+		.baidu_icon
+		{
+			display: block;
+		    height: 20px;
+		    width: 20px;
+		    background: url("../images/signin_icons.png") no-repeat transparent -111px -60px;
+		    background-size: 140px;
+		    margin: auto;
+		    float: left;
+		    transform: scale(.8);
+		    margin: -4px 0px;
+		}
+		.slack_icon
+		{
+			display: block;
+			height: 18px;
+		    width: 18px;
+		    background: url("../images/signin_icons.png") no-repeat transparent -10px -63px;
+			margin: -4px 0px;
+			background-size:140px;
+			float: none;
+		}
+		.slack_fed{
+		background-color: #fff;
+    	border: 2px solid #EEEEEE;
+    	padding: 9px;
+		}
+		.apple_fed
+		{
+			background-color: #000;
+		}
+		.apple_fed .fed_text
+		{
+			color: #fff;
+		}
+		.apple_icon
+		{
+			background: url(../images/signin_icons.png) no-repeat transparent -88px -92px;
+		    background-size: 140px;
+			margin: 2px 0px;
+		}
+		.applynormal{
+    		    height: 40px;
+    			max-width: none;
+			    margin: 0px 0px 30px 0px;
+			    width: 46%;
+			    border-radius: 2px;
+			    margin-right: 30px;
+			    padding: 10px;
+		}
+		.applynormal:nth-child(odd){
+			margin-right: 0px;
+		}
+		.facebookdefault{
+			    background-position: -119px -36px;
+			    height: 14px;
+			    width: 14px;
+			    margin: -4px auto;
+		}
+		.yahoodefault{
+			background-position: -89px -38px;
+		    height: 20px;
+		    width: 20px;
+		    margin: -5px -3px;
+		    transform: scale(0.7);
+		}
+		.hide{
+			display: none !important;
+		}
+		.qq_normal{
+			width: 43px ;
+	    	margin: auto ;
+		    background-position: -10px -90px ;
+		    float: none ;
+		}
+		.baidu_normal{
+			width: 64px;
+	    	margin: auto;
+		    background-position: -10px -120px;
+		    float: none ;
+		    transform: scale(1) ;
+		}
+		.slack_normal{
+			width: 64px ;
+		    margin: auto ;
+		    background-position: -10px -62px ;
+		    float: none;
+		}
+		.DocVedasignin{
+			width: 100%;
+		    text-align: center;
+		    border: 2px solid #309FF4;
+		    color: #309FF4;
+		    display: inline-block;
+		    border-radius: 22px;
+		    padding: 10px;
+		    height: 44px;
+		    box-sizing: border-box;
+		    cursor: pointer;
+		    margin-bottom: 30px; 
+		}
+		.select2-results__options{padding-left:0px;}
+		.borderless{
+		display:none;
+		height: 0;
+    	text-transform: capitalize;
+    	    background-color: #fff;
+    	    text-align: center;
+    	    font-weight: 400;
+		}
+	.Alert,.Errormsg
+		{
+			display: block;
+			margin: auto;
+			height: auto;
+			min-width: 200px;
+			width: fit-content;
+			width: -moz-fit-content;
+			max-width:600px;
+			background-color: #032239;
+			border-radius: 6px;
+			position: fixed;
+			top: -100px;
+			left: 0;
+			right: 0;
+			transition: all .2s ease;
+			padding: 0px 20px;
+			z-index:2;
+		}
+		.tick_icon,.error_icon
+		{
+			display: inline-block;
+			height: 20px;
+			width: 20px;
+			background-color: #22C856;
+			border-radius: 50%;
+			background-size: 60px;
+			margin: 15px;
+			float: left;
+		}
+		.tick_icon:after
+		{
+			display: block;
+			content: "";
+			height: 5px;
+			width: 9px;
+			border-bottom: 2px solid #fff;
+			border-left: 2px solid #fff;
+			transform: rotate(-45deg);
+			margin: 7px 6px;
+			box-sizing: border-box;
+		}
+		
+		.alert_message,.error_message
+		{
+			display: inline-block;
+			font-size: 14px;
+			color: #fff;
+			line-height: 18px;
+			margin: 16px 0px;
+			margin-right: 20px;
+			max-width: 510px;
+		}
+		#recoverybtn, #problemsignin,.tryanother{
+		position: absolute;
+		left:0;
+		right:390px;
+		bottom:40px;
+		}
+.extramargin{
+	margin-top:10px;
+}
+
+@keyframes rotate1 {from { transform:rotate(0deg)
+	
+}
+to {
+	transform: rotate(360deg)
+}
+
+}
+
+
+
+#signuplink{
+	width: 100%;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+}
+#signuplink a,.nopassword_message a{
+	text-decoration: underline;
+	color: blue;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+	.Alert,.Errormsg{
+		display: table;
+		left:35%;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+	body{
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+	}
+	.nopassword_container {
+		width:calc( 100% - 60px)
+		padding:10px;
+		box-sizing: border-box;
+	}
+	
+.signin_container {
+		    width: 520px;
+    box-shadow: none;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    margin-top: 7%;
+    overflow: hidden;
+		
+	}
+	.signin_box {   
+		width: 100%;
+		border-right: none;
+    }
+	.rightside_box {
+		display: none;
+	}
+	#recoverybtn,#problemsignin,.tryanother{
+		right: 0;
+	}
+	.trustdevicebox{
+	width:auto;
+	height: auto;
+	}
+}
+
+.option_title_try{
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#problemsigninui,#problemsignin{
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+	body{
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+	}
+	.nopassword_container {
+		width:calc( 100% - 60px);
+		padding:10px;
+		box-sizing: border-box;
+	}
+	.signin_container {
+		width:95%;
+    box-shadow:none;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+   	margin-top: 40px;
+   	height:auto;
+    overflow: hidden;
+		
+	}
+	.trustdevicebox{
+	width:auto;
+	height: auto;
+	}
+	.signin_box {   
+		 width: 100%;
+	    padding: 15px 15px;
+	    height: auto;
+	    border-right: none;
+    }
+	.rightside_box {
+		display: none;
+	}
+	#mfa_device_container{margin-bottom:30px !important;}
+	#captcha_img,#captcha,#bcaptcha_img,#bcaptcha{
+	border: 2px solid #F4F6F8;border-radius:2px;text-indent: 3px;width: 50%;outline:none;-webkit-appearance: none;-moz-appearance: none;
+	appearance: none;}
+	.DocVedasignin{margin-bottom:30px;}
+	.options{
+	   	margin: 0px;
+	    padding: 20px 0px;
+	    margin-left: 0;
+	 }
+	.img_option{    margin: 0px 10px 0px 0px !important;}
+	.option_details{display:table-cell}
+	.textbox{
+	  	background-color: #fff;
+    	border: none;
+    	border-bottom: 2px solid #F4F6F8;
+    	text-indent: 0px;
+    	border-radius: 0;
+	}
+	.deviceinfo{
+		display: inline-block;
+	}
+	.deviceparent{
+		display: block;
+	}
+	.textbox:focus {
+		border: none;
+		border-bottom: 2px solid #159AFF;
+		
+	}
+	.addaptivetfalist{
+		width:auto;
+		margin:0 auto;
+	}
+	.bg_one,.line{display: block;}
+	.bottom_left_dot, .top_right_dot {
+		display: none;
+	}
+	.signin_head{margin-bottom:30px;}
+	.btn{margin-top:10px;border-radius: 4px;}
+	.changeloadbtn{border-radius: 22px;}
+	.more{margin-right: 0px !important;}
+	.textindent42 {
+		text-indent: 36px;
+	}
+	.textindent62 {
+		text-indent: 56px;
+	}
+	.textintent52 {
+		text-indent: 46px;
+	}
+	.select2-selection{
+		background-color: #fff;
+	}
+	.select2-search__field{
+		width:280px;
+	}
+	.select2-container--open{
+		width: 300px;
+	}
+	.applynormal{
+		width: 44% !important;
+		min-width:0;
+	}
+	#recoverybtn, #problemsignin,.tryanother{
+		position: initial !important;
+		margin-top:70px !important;
+	}
+	.borderless,.borderlesstry{
+	 line-height: 12px;
+     font-size: 14px;
+    }
+    .fed_div{
+    	margin-bottom:20px;
+    }
+    .alert_message,.error_message{
+        max-width: 300px;
+    	width: 75%;
+    }
+    .Alert,.Errormsg{
+        max-width: 400px !important;
+        padding: 0;
+        min-width: 300px;
+    }
+    ::placeholder {
+    	font-weight: 500;
+    }
+    .mobilehide{
+    	display: none !important;
+    }
+    #forgotpassword{
+    	margin-bottom:0px;
+    }
+    #forgotpassword a{
+    	display: inline-block;
+    }
+    .options:hover,.optionstry:hover
+	{
+		background-color: #fff;
+	}
+	.contactsuprt{
+	display: block !important;
+	}
+	.option_details_try{
+		display: inline-block;
+	    margin: 0px;
+	}
+	.problemsignin_head{
+		margin-bottom: 30px;
+	}
+	.problemsignincontainer{
+		    width: auto;
+		    height: auto;
+		    overflow: unset;
+		    position: unset;
+		    margin-left: 0;
+	}
+	.optionmod{
+		margin-left: 0;
+		padding: 0;
+	}
+	.problemsignincon {
+    	width: auto;
+	}
+	.optionmod{
+		padding:20px 0px;
+	}
+	.mod_container{
+		width:100%;
+	}
+	.restrict_icon{
+		height: 180px;
+	}
+	.problemsignincon,.recoverymodes{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.applynormal{
+		border-radius: 20px;
+	}
+}
+
+
+.loader{
+	width: 36px;
+	height: 36px;
+	border: 4px solid #159AFF;
+	border-bottom: 4px solid transparent;
+	border-radius: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	animation: rotate 1s linear infinite;
+	position: absolute;
+	top: 50%;
+	z-index: 7;
+	display:none;
+	left: 50%;
+}
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#recoverybtn, #problemsignin,.tryanother{
+	display: none;
+    bottom: 50px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.backoption:hover{
+	background: #f4f4f4;	
+}
+.rec_head_text,.backoption{
+	display: table-cell;
+}
+#enablemore{
+	display: none;
+	margin-bottom: 20px;
+}
+#resendotp{display: none;}
+.mod_sername{
+	margin-top: 10px;
+}
+.fielderror a {
+    text-decoration: none;
+    color: #309FF4;
+}
+#openoneauth{
+	text-align: center;
+	display: none;
+}
+.oneauthtext{
+	line-height: 40px;
+}
+.DocVeda_loho_changes{
+	width: 81px;
+	display: inline-block;
+	margin-top: 50px;
+}
+.logo_mod{
+	margin: auto;
+	margin-top: 50px;
+}
+.logo_mod_url{
+	vertical-align: middle;
+    margin: 30px auto
+}
+.applycenter{
+	margin: auto;
+    width: 81px;
+}
+#restict_signin{
+	display: none;
+}
+.restrict_head{
+	text-align: center;
+	margin-top: 20px;
+}
+.restrict_icon{
+    display: block;
+    height: 140px;
+    width: 100%;
+    background: url(../images/restrictedsignin.png) no-repeat transparent;
+    background-size: auto 100%;
+    margin: auto;
+    margin-top: 20px;
+    background-position: center;
+}
+.restrict_desc{
+	margin-top: 20px;
+	text-align:center;
+	line-height: 30px;
+}
+.trybtn{
+	font-size: 14px;
+	padding-left: 24px;
+	padding-right:24px;
+	margin-top:30px;
+}
+.problemsignincontainer{
+	overflow-y: scroll;
+    max-height: 300px;
+}
+.fed_div_text{
+	width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.fed_div_text span{
+	width: auto;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    display: table;
+    text-indent: 20px;
+}
+.pass_policy, .pass_policy_error {
+    color: #8c8c8c;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.field_error {
+    color: #f37272;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.pass_policy_error {
+    color: #ed7500;
+    display: block;
+}
+.passexpsuccess{
+	display:none;
+	height: 106px;
+    width: 178px;
+    background: url(../images/passexpiry.png) no-repeat transparent;
+    background-size: auto 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.passlogo{
+	margin: 0 auto;
+    width: 81px;
+    margin-bottom: 20px;
+}
+.error_icon{
+	background-color: #FF676F;	
+}
+.error_icon:before, .error_icon:after {
+    position: absolute;
+    left: 44px;
+    top: 20px;
+    content: ' ';
+    height: 10px;
+    width: 2px;
+    background-color: #FFFFFF;
+}
+.error_icon:before {
+  transform: rotate(45deg);
+}
+.error_icon:after {
+  transform: rotate(-45deg);
+}
+.textbox:-webkit-autofill,.textbox:-webkit-autofill:hover, .textbox:-webkit-autofill:focus,.textbox:-webkit-autofill:active{
+	-webkit-box-shadow: inset 0 0 0px 9999px #F4F6F8;
+	-webkit-text-fill-color: black;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #AAB2BB;
+	letter-spacing: .3;
+	font-weight: 400;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #AAB2BB;
+	letter-spacing: .3;
+	font-weight: 400;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #AAB2BB;
+	letter-spacing: .3;
+	font-weight: 400;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: #AAB2BB;
+	letter-spacing: .3;
+	font-weight: 400;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #AAB2BB;
+	letter-spacing: .3;
+	font-weight: 400;
+}
+/* Dark Mode*/
+.darkmode,.darkmode .signin_container,.darkmode .signin_box,.darkmode input,.darkmode .optionstry:hover,.darkmode .bg_one{
+    background: #121212;
+}
+.darkmode,.darkmode input,.darkmode .service_name,.darkmode .backup_desc,.darkmode .signin_fed_text,.darkmode .text16,.darkmode #signuplink,.darkmode .backoption,.darkmode .select_country_code,.darkmode .pass_name{
+	color: #E2E2E2;
+}
+.darkmode .blue{
+	box-shadow: unset;
+	color: #E1E1E1;
+	background: #017AE0;
+}
+.darkmode .apple_fed{
+	background-color: #fff;
+}
+.darkmode .apple_fed .fed_text{
+	color: #000;
+}
+.darkmode .apple_icon{
+	background-position: -112px -92px;
+}
+.darkmode #signuplink a,.darkmode .bluetext,.darkmode .bluetext_action{
+	color: #278FDE;
+}
+.darkmode .tryanother{
+	color: #159AFF;
+	border: 2px solid #159AFF;
+}
+.darkmode .textbox{
+	border: none;
+	border-bottom: 2px solid #A0A0A0;
+}
+.darkmode .option_description{
+	color: #9F9F9F;
+}
+.darkmode #showIDPs,.darkmode .banner_newtoold{
+	background: rgba(255,255,255,0.10);
+}
+.darkmode .morecircle{
+	background: rgba(255,255,255,0.40);
+}
+.darkmode .textbox:-webkit-autofill,.darkmode .textbox:-webkit-autofill:hover, .darkmode .textbox:-webkit-autofill:focus,.darkmode .textbox:-webkit-autofill:active{
+	-webkit-box-shadow: inset 0 0 0px 9999px #121212;
+	-webkit-text-fill-color: #e2e2e2;
+}
+.darkmode .errorlabel,.darkmode .banner_newtoold{
+	color: #FF7979;
+}
+.darkmode .textbox{
+	transition: unset;
+}
+.darkmode ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #AAB2BB;
+	letter-spacing: .3;
+	font-weight: 300;
+}
+.darkmode ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #AAB2BB;
+	letter-spacing: .3;
+	font-weight: 300;
+}
+.darkmode ::-moz-placeholder { /* Firefox 19+ */
+	color: #AAB2BB;
+	letter-spacing: .3;
+	font-weight: 300;
+}
+.darkmode :-ms-input-placeholder { /* IE 10+ */
+	color: #AAB2BB;
+	letter-spacing: .3;
+	font-weight: 300;
+}
+.darkmode :-moz-placeholder { /* Firefox 18- */
+	color: #AAB2BB;
+	letter-spacing: .3;
+	font-weight: 300;
+}
+.darkmode .line{
+	background-color: #a9a9a9;
+}
+.darkmode .blur{
+	background-color: #000;
+	opacity: 0.5;
+}
+@media only screen and (max-width: 600px) {
+	.textbox{
+		transition: unset;
+	}
+	.textbox:-webkit-autofill,.textbox:-webkit-autofill:hover, .textbox:-webkit-autofill:focus,.textbox:-webkit-autofill:active{
+		-webkit-box-shadow: inset 0 0 0px 9999px white;
+		-webkit-text-fill-color: black;
+	}
+	.textbox:valid{
+		border: none;
+		border-bottom: 2px solid #F4F6F8;
+	}
+	.douban_fed .fed_text{
+		margin-left: 0; 
+	}
+}	

@@ -1,0 +1,235 @@
+.dv-signup {
+    opacity: 1;
+    visibility: visible;
+}
+
+.featured-section-wrap .region-promo .learn-more {
+    opacity: 1;
+    visibility: visible;
+}
+
+.featured-section-wrap li.zp-main-apps a em {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*.for-india {
+    display: block;
+}*/
+body {
+    font-family: 'Montserrat';
+    font-weight: normal;
+}
+
+.ClsSrchDiv {
+    position: relative;
+    display: inline-block;
+}
+.ClsSrchInp {
+    border-radius: 10px;
+    background-color: #eee;
+    color: #777;
+    padding: 7px 25px 7px 8px;
+}
+
+.region-promo ul li {
+    border-bottom: 1px solid #f2f2f2;
+}
+    .region-promo ul li:nth-child(5), .region-promo ul li:nth-child(6) {
+        border-bottom: 0;
+    }
+
+
+    .region-promo ul li b {
+        display: inline-block;
+        min-height: 40px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+
+/*set background image*/
+.zp-main-apps.EHSCls02 a > span {
+    background: url(../images/clinical_profile.png) left top no-repeat;
+    background-size: auto 75%;
+}
+.zp-main-apps.EHSCls03 a > span {
+    background: url(../images/financial_accounting.png) left top no-repeat;
+    background-size: auto 75%;
+}
+.zp-main-apps.EHSCls04 a > span {
+    background: url(../images/management_information_systems.png) left top no-repeat;
+    background-size: auto 65%;
+}
+.zp-main-apps.EHSCls05 a > span {
+    background: url(../images/service_management_systems.png) left top no-repeat;
+    background-size: auto 75%;
+}
+.zp-main-apps.EHSCls06 a > span {
+    background: url(../images/material_management.png) left top no-repeat;
+    background-size: auto 75%;
+}
+
+
+
+/**/
+.GradShade {
+    height: 4px;
+    width: 100%;
+    float: left;
+    background: -moz-linear-gradient(left, rgba(41, 107, 177, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(41, 107, 177, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(41, 107, 177, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#00ffffff', GradientType=1);
+}
+
+
+/*hospital*/
+
+.DocVeda2-one-promo-sec.zcustomer-section-part {
+    padding: 0;
+}
+
+    .DocVeda2-one-promo-sec.zcustomer-section-part .content-wrap {
+        padding: 15px 15px 10px 15px;
+        margin: 60px auto 80px;
+        overflow: hidden;
+    }
+
+        .DocVeda2-one-promo-sec.zcustomer-section-part .content-wrap .banner-testimonial-wrap img {
+            width: 92%;
+            height:100%;
+        }
+
+.UlAdvHospitals {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+}
+.z-trust-brands-wrap ul li {
+    display: inline-block;
+    width: 33%;
+}
+.UlAdvHospitals li {
+    width: 33%;
+    height: auto;
+    float: left;
+    /*border: 1px solid #ddd;*/
+    padding: 15px 10px 15px 20px;
+    border-bottom: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    text-align: center;
+}
+        .UlAdvHospitals li img {
+            width: 21px;
+            height: 22px;
+            /*float: left;*/
+            margin-right: 5px;
+            display: inline-block;
+        }
+    .UlAdvHospitals li label {
+        width: calc(100% - 31px);
+        height: auto;
+        /* float: left; */
+        font-size: 12px;
+        line-height: 30px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        font-weight: 500;
+    }
+
+        .UlAdvHospitals li:nth-child(3),
+        .UlAdvHospitals li:nth-child(6),
+        .UlAdvHospitals li:nth-child(9) {
+            border-right: 1px solid #ffffff;
+        }
+        .UlAdvHospitals li:nth-child(7),
+        .UlAdvHospitals li:nth-child(8),
+        .UlAdvHospitals li:nth-child(9) {
+            border-bottom: 1px solid #ffffff;
+        }
+.learn-more2 {
+    color: #fff;
+    background: #009039;
+    padding: 5px 15px;
+    display: inline-block;
+    font-family: 'Montserrat';
+    /* text-transform: uppercase; */
+    font-size: 14px;
+    float: right;
+    margin-right: 16%;
+    margin-top: 5%;
+}
+.footer-wrapper {
+    background-color: #145ea9;
+    background-image: linear-gradient(to right, #145ea9, #106a9c, #03b75c);
+}
+
+    .footer-wrapper ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #09316d;
+        opacity: 1; /* Firefox */
+    }
+
+    .footer-wrapper :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #09316d;
+    }
+
+    .footer-wrapper ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #09316d;
+    }
+
+    .footer-wrapper .footer-about li img {
+        width: 15px;
+        height: 15px;
+        margin-top: 12px;
+        display: inline-block;
+        float: left;
+        margin-right: 15px;
+    }
+    .footer-wrapper .footer-about li a.social1 {
+        float: left;
+        width: auto;
+        margin: 0 5px 0 0;
+    }
+    .footer-wrapper .footer-about li a.social1 img {
+        width: auto;
+        height: auto;
+        margin-top: 0;
+        float: left;
+        margin-right: 15px;
+    }
+
+
+/**/
+.DocVeda-apps-category ul li.zp-contactmanager {
+    border-bottom-color: #ffffff;
+}
+.DocVeda-apps-category ul li.zp-checkout {
+    border-bottom: 1px solid #f5f5f5;
+    /*border-right: 1px solid #f5f5f5;*/
+}
+.DocVeda-apps-category ul li.zp-new3 {
+    border-right: 1px solid #f5f5f5;
+    
+}
+.DocVeda-apps-category ul li.zp-new4 {
+    border-right: 1px solid #ffffff;
+    
+}
+.DocVeda-apps-category ul li.zp-docs {
+    border-bottom: 1px solid #ffffff;
+}
+.DocVeda-apps-category ul li.zp-writer {
+    border-bottom: 1px solid #ffffff;
+}
+.DocVeda-apps-category ul li.zp-mobiledevicemanagement {
+    border-bottom: 1px solid #ffffff;
+}
+.DocVeda-apps-category ul li.zp-new9 {
+    border-bottom: 1px solid #ffffff;
+}
+.DocVeda-apps-category ul li.zp-new10 {
+    border-bottom: 1px solid #ffffff;
+}

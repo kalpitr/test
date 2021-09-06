@@ -1,0 +1,51 @@
+/*---styles for Schemes Master---*/
+
+.width_50 { width: 50%; }
+.width_40 { width: 40%; }
+.pad_0 {padding: 0px;}
+.pad_lft_0 {padding-left: 0;}
+.pad_rgt_0 {padding-right: 0;}
+.txt_rgt {
+    text-align: right;
+}
+.txt_cntr{ text-align: center; }
+.form-group2 .checkbox {
+    margin-top: 5px;
+}
+.visi_hidden { visibility: hidden; }
+textarea { resize: none; }
+
+.SecHeadOutr {
+    width: 100%;
+    height: auto;
+    float: left;
+    border: 1px solid #cccccc;
+}
+.SecH4 {
+    width: 100%;
+    height: auto;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-bottom: 1px solid #cccccc;
+    margin: 0 0 10px 0;
+    background-color: rgba(20, 93, 161, 0.2);
+}
+.Legend_section {
+    color: red;
+}
+.form-group {
+    margin-bottom: 5px;
+}
+/*---end of styles for Schemes Master---*/
+
+/*table style*/
+table.table {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+/*button style*/
+
+
+

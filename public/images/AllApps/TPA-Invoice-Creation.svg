@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" width="55" height="55">
+	<title>TPA-Invoice-Creation</title>
+	<defs>
+		<image  width="27" height="51" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAzCAMAAABR9YM8AAAAAXNSR0IB2cksfwAAAU1QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////0xrd1gAAAG90Uk5TAEXF4MZGj/+OODO0r83LqaMg/R1l/GMYkrmTFhExGwim+fsGH1zlzPjf3iKd3Zlzu+noaq5+9HuqAcHn7ve/ratCS7i2B5iWHkzIxM5EJ+MVpeYqA9XzPIWECQ3wiC6R/pykkJuXhiErMM/RUNI/cPcQdQAAAVVJREFUeJzVlFlTwjAQgKOCq4igeOCBWiwWobbWC1FBPMELz3oD1lvx+P+PJlCmELaMj/o9ZGfyzWZ3m04IsWhqbnE4CUorMNow1Q5lXIjrMJ0bcZ2m8yDOa7ouxHX7SsrXgzXTy2RfPz6Ef2BwaBgTgZEKo7ViTAiCxbhbrHKhiVpCeNFqJLBDIlIwjDNJXcTmwKjlArIsTykqXQN1blrTtBmYpetcnWPMgxc7c0GhxCDGwiKWF4c4kre0rKwkEsly3iqWl4I1rN66VuozwcIG50Q6mLwJWyxsc05Oq6oagShdMzuc26Ufd28fHAc0Zjl3CHB0LMCJ/xTgjHP6+cUluQpfE2fSo/MziDdm77e6NUMuj5OTGt57wWVHgfyCO4NyTx5YeOTcE6sg0NulqA1c+m+41H92ebaZIc8svHDulT5Kxht5N7BXK1v8YP/651fxu7L1Ax5/VmzKyr4qAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="14" y="2" />
+</svg>

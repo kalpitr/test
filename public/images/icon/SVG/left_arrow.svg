@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+	<title>left_arrow</title>
+	<defs>
+		<image  width="25" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAMAAADzN3VRAAAAAXNSR0IB2cksfwAAAN5QTFRFmZmZmZmZmZmZmZmZmZmZmZmZmZmZ////mZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZ4lcGZwAAAEp0Uk5TAAdImNHw/wAEZubpcgYnz3M3Gig17d1SAe64EAWxA9J02gzZCElUzlWfIuLYGSHhNNMg4E4zEcDxTdTVI+PXGM3M6nW3Dx4faGeSQXaHAAABIUlEQVR4nH2SaVuCUBCFR+Sea4LJYmqiYkoglWULRatW2vL//1DAZdOs83HeZ+6dOXOIhCpSVWZgclWqcCFRr+3VkUlRGwXZl4GmphsNQ1ebgGxmpHWAdqebPtvttHGoC2Iy9CzKxLnVAzNj0pcxGFKJ8OEAdj8iIxyNaYPw8QQjTo6CY9oiXILikAuPfhHuYUo+NFE6OT2b5USDTzb0BJxfTIyiZ45LYkgKV9fsJkiUkFswAhoxucvdEU0AhZiJx9j9Rk9ID+k/6QDpPwEei9menl8WOVGj2aZY7tjnNdon8kDa4cGb85dv7/96Hd9ntS6R9Sq9D9Fc2bqp0spy8LGMcqAGFllBnAPvs5SdryI79e9aKVVEjuvbIULbd500bz+8+h4S2aKehgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

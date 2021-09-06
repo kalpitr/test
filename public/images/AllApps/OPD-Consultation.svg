@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" width="55" height="55">
+	<title>OPD-Consultation</title>
+	<defs>
+		<image  width="31" height="51" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAzCAMAAABYHiNGAAAAAXNSR0IB2cksfwAAAdFQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ZP3RPgAAAJt0Uk5TAAxYlKmWXw/p/+1mgolUVwLe4AQ8P2tydoBcGv4msLoj7vEo7EAcn/X3oh4KOlALEiIRA05xGMcXf0IB1tMkamwfw9hd3Xea78I4l0E18gZR+ev7KcTFy2h+Beg55asUrKP9lSyq/CuBkrz2O6FN+EWgvUuZN7NDuY14bl5bG78+c4SkMsqQLYi3m457Y998RGAqL/OnsW/GEHC+/kRyAAAB50lEQVR4nL3TV1sTQRQG4EPnZGFBSJASuhRDEU00kJjQewhF6U1AwIYoTVB6B1GKgOivZXazbXY2XPLdzPOcd3Zmzu4OgCYhoWHhEZFRECSR0SjExBlzDMqJNWIe1cSxHP9A4wmJjJtRGwvjSZQ/ZDyZ8hTGUylnW0yzaj2dbSBDw5kG/WdlK5yTa+BgfiSxKc+IAfILCok+thUZM0lxSan5SVAlKXv6LBjZHc9fOMn6zvIKl9vAXyJ6vJVhVdU1iLV17Ix6obGIhsYmsYdmr9Za7ACt1AtGk0/lNn87QAft2KlMSO9C4lGvdBOaXgc4vhsFhx6dY69d9D4MeL/esUrggUHJhxgfHiBlB0puz2Ym8KQ8IvvoG8bHSDlBdp5jNyCfbFz2CS/jOApvUXabuVaF6MkpYZiGNtXfvVf9A3wUBgt8UnzG+ZlxF/hUn8qfZf2L4l+Rn7vL5xf4xcYlP+XfAusvO0tWQr//6FutXFvfoH1TGLaw1LO9tLOS4see9VnKxfPbVEdXM+VFwuDR+O4e5TAm7ie7df/ASrvbsX24v+c42jr+efJrOi3vN30+KfMNJKcTy/Id1fsM0rkn9wX3M47jzpUrdmGh80f8by8Vv9I9fy1em4w73P33pvWf4v8n6SRL9Vse8IXBPEyjOgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="12" y="2" />
+</svg>

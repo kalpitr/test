@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" width="55" height="55">
+	<title>Pre-Anesthesia-Check-Up</title>
+	<defs>
+		<image  width="55" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAATCAMAAAADOGVUAAAAAXNSR0IB2cksfwAAAadQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8jUNHwAAAI10Uk5TABARDR1DRCkO0P+wAoX+qQFVYJEogjNU+z9ezgNosaZaMv1O4uP5Y7qlPplQE2xAyMf1ONFGt+tTFBhJBOBdcLR0LJ8fBQrxoyJiX2/85MWKC653Gat5BoPyLQ/n2HgI2lehnTaM0/d7UoFquUu/7dzM6J6qqBYviTDqiCvv0rPK1H0m1+UuTXPE+jEc3pMWaAAAAY5JREFUeJyFk2dbwjAQgA9RwagMFRy4AVHBPXAjyHAhYl24t4IL996KOH60SSlKWsD3Q9O73Ns+d00BQJRCIwYhqWnpMUhwRpqB+GRm8bVsGV0hV4ASLznKP3JxLOFpeTKVOpb8gkIoQkiDt4pLSsvKFfimohIhNc/TIp2eoqoIewYp1qrJ62uIWGsUeCZBK8Srwzv1kVBLqhrieI1NFM2s19La1s5qZlaQdnTyvK7uHjrRy3p9yNLPelawGQcsDXYHXeWUtBlUpXrXIM+DIcUw643AKLu6xzzjNq7Ea9FEm5qgPWYSQDFFNqZhZtbHFcnknXOMdb57IWotLi3THlohY1xdWzeR1bGx6Y4U6jwIbXEffHuH6hl7fpwNMIRdhmNPMHbURzUsdu2D8yB6hg6DwvooriMOObkcB72xj7EfJxY5Tk4xZ4FzeuAX5n+0S4jP1XVS7SaBBnD7O/a7+4dHhJqefH/ac0IN4OUVvZ0x/hD5ec+V7/h8iULasPHjE7nDSTR8AlLipr1f31T8A0DwVKLCHRvYAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="18" />
+</svg>

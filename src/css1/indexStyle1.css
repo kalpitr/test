@@ -1,0 +1,745 @@
+.DocVedalics-section-wrap {
+        display: none;
+        margin-bottom: 40px
+    }
+
+    .ccode-ae .featured-section-wrap.for-uae, .ccode-sa .featured-section-wrap.for-uae {
+        display: block
+    }
+
+    .footer-sec-wrap.two-column .promo-section-wrap {
+        background: #2b2b2b
+    }
+
+    .dv-banner-wrap h1 + p {
+        max-width: 800px;
+        margin: 0 auto 20px;
+        width: 90%
+    }
+
+    .region-promo {
+        position: relative
+    }
+
+        .region-promo:before {
+            display: none;
+            content: 'Featured Apps';
+            position: absolute;
+            left: 0;
+            top: -60px;
+            width: 100%;
+            height: 20px;
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #999;
+            font-family: "proxima_novasemibold"
+        }
+
+    .DocVeda-apps-category .business-intelligence {
+        position: relative;
+        display: none
+    }
+
+    .dv-header-wrap .DocVeda-logo {
+        content: '';
+        position: absolute;
+        left: 20px;
+        top: 0px;
+        width: 175px;
+        height: 55px;
+        background: url(../images/DocVeda_Logo_01.svg) no-repeat 0 0/auto 50px;
+    }
+
+    .DocVeda-logo {
+        left: unset;
+        right: 20px
+    }
+
+    .dv-header-wrap:before {
+        opacity: 0;
+        visibility: hidden
+    }
+
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+        .zcustomer-section-part .banner-testimonial-wrap {
+            width: 20%
+        }
+
+        .zcustomer-section-part .z-trust-brands-wrap {
+            width: 80%;
+        }
+
+        .z-trust-brands-wrap ul li {
+            width: 33%;
+        }
+        /*.z-trust-brands-wrap ul li:nth-child(n+5) {
+            display: none
+            }*/
+        .ClsSrchInp {
+            width: 150px;
+        }
+
+        .dv-user-account a {
+            font-size: 12px;
+        }
+
+        .UlAdvHospitals li img {
+            margin-right: 5px;
+        }
+    }
+
+    @media only screen and (min-width:1170px) {
+        .zcustomer-section-part .zcustomer-inner-wrap.content-wrap {
+            max-width: 1160px;
+            display: table;
+            table-layout: fixed;
+            width: 100%
+        }
+    }
+
+    @media only screen and (min-width:768px) and (max-width:991px) {
+        .region-promo:before {
+            top: -40px
+        }
+
+        .region-promo ul {
+            margin: 40px auto;
+            overflow: hidden
+        }
+
+            .region-promo ul:before {
+                left: 0;
+                width: 100%
+            }
+
+        .region-promo .promotion-app a {
+            padding: 30px 20px 40px 110px
+        }
+
+        .region-promo .promo-appicon {
+            top: 25px
+        }
+
+        .dv-header-wrap .DocVeda-logo {
+            left: 0;
+            width: 120px;
+            background: url(../images/DocVeda_Logo_01.svg) no-repeat 0 0/auto 38px;
+        }
+
+        .DocVeda2-one-promo-sec .DocVeda2-one-logo a span {
+            height: 110px;
+        }
+
+        .DocVeda2-one-promo-sec .content-wrap > div:first-child {
+            text-align: center;
+        }
+
+        .DocVeda2-one-promo-sec.zcustomer-section-part .content-wrap .banner-testimonial-wrap img {
+            width: auto;
+            height: auto;
+        }
+
+        .DocVeda2-one-promo-sec h6 {
+            left: 50%;
+        }
+    }
+
+    @media only screen and (max-width:767px) {
+        .region-promo ul, .region-promo .promotion-app {
+            width: 100%;
+            display: block;
+            float: none
+        }
+
+        .region-promo {
+            margin-top: 50px
+        }
+
+            .region-promo:before {
+                top: -40px
+            }
+
+            .region-promo ul:after, .region-promo ul:before {
+                display: none
+            }
+
+            .region-promo ul {
+                margin: 10px auto 30px;
+                padding: 0
+            }
+            .region-promo.region-promo2 ul {
+                padding: 0 0 15px 0;
+            }
+
+        .featured-section-wrap .content-wrap {
+            padding: 0;
+            margin: 0 auto 60px
+        }
+
+        .dv-banner-wrap p {
+            font-size: 16px;
+            padding: 0 5%
+        }
+
+        li.zp-main-apps a em {
+            font-size: 10px;
+            border: 0;
+            border: 1px solid #009039;
+            padding: 0;
+            display: block
+        }
+
+        .region-promo ul li span {
+            margin-bottom: 0
+        }
+
+        .region-promo .promotion-app a {
+            padding: 80px 20px 30px
+        }
+
+        .dv-banner-wrap .content-wrap {
+            padding: 40px 0 0
+        }
+
+        li.zp-main-apps a strong {
+            font-size: 8px;
+            left: 50%;
+            top: -20px;
+            margin-left: -15px;
+            height: 11px;
+            line-height: 12px;
+            padding: 0 3px
+        }
+
+        .dv-header-wrap:before, .dv-header-wrap .DocVeda-logo {
+            display: none
+        }
+    }
+
+    @media only screen and (max-width:480px) {
+        .dv-user-account {
+            text-align: center;
+        }
+
+        .UlAdvHospitals li label {
+            text-align: center;
+        }
+
+        .region-promo ul {
+            max-width: 300px;
+            margin: 10px auto 10px
+        }
+
+            .region-promo ul a {
+                line-height: 1;
+                width: 100%;
+            }
+
+        .dv-banner-wrap p {
+            max-width: 350px;
+            margin: 0 auto;
+            font-size: 12px;
+            padding: 0;
+            text-align: justify;
+        }
+    }
+
+    .ccode-eucountries .DocVedalics-outer-wrap.DocVedalics-eu.DocVedalics-jp {
+        display: none
+    }
+    /*DocVeda one promotional for US - ENglish*/
+    .region-promo .promotion-app-zone {
+        padding: 0;
+    }
+
+    .region-promo .promotion-app.promotion-app-zone {
+        background: rgba(255, 240, 168, 0.44);
+        border: 1px solid rgba(255, 240, 168, 0.44);
+    }
+
+        .region-promo .promotion-app.promotion-app-zone a {
+            padding: 60px 60px 60px 60px;
+        }
+
+    .promotion-app-zone .zone-logo img {
+        width: 120px;
+        padding-right: 10px;
+    }
+
+    .promotion-app-zone .zone-logo span {
+        font-size: 36px;
+        font-family: proxima_novasemibold;
+        position: relative;
+        top: -2px;
+        display: inline-block;
+        line-height: 1;
+    }
+
+    .region-promo .promotion-app.promotion-app-zone h3 {
+        margin: 10px 0 25px 0;
+        font-size: 24px;
+        font-family: proxima_nova_rgbold;
+    }
+
+    li.zp-main-apps.zp-main-crm, .region-promo .promotion-app-zone {
+        display: none;
+    }
+
+    .ccode-sa .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-ae .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-ir .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-il .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-tr .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-eg .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-iq .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-qa .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-lb .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-ps .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-jo .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-ye .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-kw .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-om .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-bh .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-cy .DocVeda-bundles-section-wrap .content-wrap,
+    .ccode-us .DocVeda-bundles-section-wrap .content-wrap {
+        border-top: 1px solid #efefef
+    }
+
+    .ccode-sa .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-ae .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-ir .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-il .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-tr .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-eg .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-iq .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-qa .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-lb .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-ps .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-jo .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-ye .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-kw .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-om .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-bh .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-cy .featured-section-wrap + .DocVeda2-one-promo-sec,
+    .ccode-us .featured-section-wrap + .DocVeda2-one-promo-sec {
+        margin-top: 30px
+    }
+
+    .ccode-sa .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-ae .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-ir .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-il .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-tr .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-eg .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-iq .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-qa .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-lb .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-ps .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-jo .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-ye .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-kw .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-om .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-bh .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-cy .DocVeda2-one-promo-sec .content-wrap,
+    .ccode-us .DocVeda2-one-promo-sec .content-wrap {
+        display: none
+    }
+
+    .ccode-sa li.zp-main-apps.zp-main-books,
+    .ccode-ae li.zp-main-apps.zp-main-books,
+    .ccode-ir li.zp-main-apps.zp-main-books,
+    .ccode-il li.zp-main-apps.zp-main-books,
+    .ccode-tr li.zp-main-apps.zp-main-books,
+    .ccode-eg li.zp-main-apps.zp-main-books,
+    .ccode-iq li.zp-main-apps.zp-main-books,
+    .ccode-qa li.zp-main-apps.zp-main-books,
+    .ccode-lb li.zp-main-apps.zp-main-books,
+    .ccode-ps li.zp-main-apps.zp-main-books,
+    .ccode-jo li.zp-main-apps.zp-main-books,
+    .ccode-ye li.zp-main-apps.zp-main-books,
+    .ccode-kw li.zp-main-apps.zp-main-books,
+    .ccode-om li.zp-main-apps.zp-main-books,
+    .ccode-bh li.zp-main-apps.zp-main-books,
+    .ccode-cy li.zp-main-apps.zp-main-books,
+    .ccode-us li.zp-main-apps.zp-main-books {
+        display: none
+    }
+
+    .ccode-sa li.zp-main-apps.zp-main-crm,
+    .ccode-ae li.zp-main-apps.zp-main-crm,
+    .ccode-ir li.zp-main-apps.zp-main-crm,
+    .ccode-il li.zp-main-apps.zp-main-crm,
+    .ccode-tr li.zp-main-apps.zp-main-crm,
+    .ccode-eg li.zp-main-apps.zp-main-crm,
+    .ccode-iq li.zp-main-apps.zp-main-crm,
+    .ccode-qa li.zp-main-apps.zp-main-crm,
+    .ccode-lb li.zp-main-apps.zp-main-crm,
+    .ccode-ps li.zp-main-apps.zp-main-crm,
+    .ccode-jo li.zp-main-apps.zp-main-crm,
+    .ccode-ye li.zp-main-apps.zp-main-crm,
+    .ccode-kw li.zp-main-apps.zp-main-crm,
+    .ccode-om li.zp-main-apps.zp-main-crm,
+    .ccode-bh li.zp-main-apps.zp-main-crm,
+    .ccode-cy li.zp-main-apps.zp-main-crm,
+    .ccode-us li.zp-main-apps.zp-main-crm {
+        display: inline-block;
+    }
+
+    .ccode-sa .region-promo .promotion-app,
+    .ccode-ae .region-promo .promotion-app,
+    .ccode-ir .region-promo .promotion-app,
+    .ccode-il .region-promo .promotion-app,
+    .ccode-tr .region-promo .promotion-app,
+    .ccode-eg .region-promo .promotion-app,
+    .ccode-iq .region-promo .promotion-app,
+    .ccode-qa .region-promo .promotion-app,
+    .ccode-lb .region-promo .promotion-app,
+    .ccode-ps .region-promo .promotion-app,
+    .ccode-jo .region-promo .promotion-app,
+    .ccode-ye .region-promo .promotion-app,
+    .ccode-kw .region-promo .promotion-app,
+    .ccode-om .region-promo .promotion-app,
+    .ccode-bh .region-promo .promotion-app,
+    .ccode-cy .region-promo .promotion-app,
+    .ccode-us .region-promo .promotion-app {
+        display: none;
+    }
+
+    .ccode-sa .region-promo .promotion-app-zone,
+    .ccode-ae .region-promo .promotion-app-zone,
+    .ccode-ir .region-promo .promotion-app-zone,
+    .ccode-il .region-promo .promotion-app-zone,
+    .ccode-tr .region-promo .promotion-app-zone,
+    .ccode-eg .region-promo .promotion-app-zone,
+    .ccode-iq .region-promo .promotion-app-zone,
+    .ccode-qa .region-promo .promotion-app-zone,
+    .ccode-lb .region-promo .promotion-app-zone,
+    .ccode-ps .region-promo .promotion-app-zone,
+    .ccode-jo .region-promo .promotion-app-zone,
+    .ccode-ye .region-promo .promotion-app-zone,
+    .ccode-kw .region-promo .promotion-app-zone,
+    .ccode-om .region-promo .promotion-app-zone,
+    .ccode-bh .region-promo .promotion-app-zone,
+    .ccode-cy .region-promo .promotion-app-zone,
+    .ccode-us .region-promo .promotion-app-zone {
+        display: table-cell;
+    }
+
+    @media all and (max-width:767px) {
+        .region-promo .promotion-app.promotion-app-zone a {
+            padding: 30px 20px 30px 20px;
+        }
+
+        .region-promo .promotion-app.promotion-app-zone h3 {
+            font-size: 20px;
+            margin: 10px 0 20px 0;
+        }
+
+        .promotion-app-zone .zone-logo img {
+            width: 90px;
+        }
+
+        .promotion-app-zone .zone-logo span {
+            font-size: 26px;
+        }
+
+        .region-promo .promotion-app.promotion-app-zone h3 {
+            font-size: 18px;
+        }
+    }
+    /*DocVeda one promotional for US - ENglish*/
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .dv-user-account a {
+            padding: 5px 5px;
+            font-size: 8px;
+        }
+    }
+
+
+/*-------*/
+.dv-user-account a.dv-signup.highlightMe{
+    background-color: #155fa6;
+    border-radius: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 7px 5px 5px;
+}
+.dv-user-account a.dv-signup:hover{
+    background-color: #155fa6;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 7px 5px 5px;
+    color: #ffffff;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .dv-user-account a.dv-signup.highlightMe{
+        padding: 5px 10px;
+        margin: 0;
+    }
+    .dv-user-account a.dv-signup:hover{
+        padding: 5px 10px;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 767px){
+    .dv-user-account a.dv-signup.highlightMe{
+        padding: 5px 5px;
+        margin: 0;
+    }
+    .dv-user-account a.dv-signup:hover{
+        padding: 5px 5px;
+        margin: 0;
+    }
+}
+.backgroundNone{
+    background: none;
+}
+
+      .featured-section-wrap .content-wrap .contwrapH5 {
+            text-align: center;
+            margin: 0 0 30px 0;
+            color: #333;
+      }
+      .featured-section-wrap .content-wrap .contwrapH5 img {
+            width: 52px;
+            margin: 0px 0 0 0;
+            position: relative;
+            top: 18px;
+      }
+
+      /*---------*/
+      .region-promo.region-promo2{
+            background: -moz-linear-gradient(left, rgba(229, 241, 253, 1) 0%, rgba(249, 249, 249, 0.23) 85%, rgba(255, 255, 255, 0) 100%);
+          background: -webkit-linear-gradient(left, rgba(229, 241, 253, 1) 0%, rgba(249, 249, 249, 0.23) 85%, rgba(255, 255, 255, 0) 100%);
+          background: linear-gradient(to right, rgba(229, 241, 253, 1) 0%, rgba(249, 249, 249, 0.23) 85%, rgba(255, 255, 255, 0) 100%);
+          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e5f1fd', endColorstr='#00ffffff', GradientType=1);
+      }
+      .region-promo.region-promo2 .promotion-app{
+            border-right-width: 0;
+            vertical-align: middle;
+            background: -webkit-linear-gradient(left, rgba(229, 241, 253, 1) 0%, rgba(249, 249, 249, 0.23) 85%, rgba(255, 255, 255, 0) 100%);
+            background: linear-gradient(to right, rgba(229, 241, 253, 1) 0%, rgba(249, 249, 249, 0.23) 85%, rgba(255, 255, 255, 0) 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e5f1fd', endColorstr='#00ffffff', GradientType=1);
+      }
+      .region-promo.region-promo2 .promotion-app .promotion-app-Innr {
+          color: #000;
+          display: block;
+          padding: 60px 40px 60px 140px;
+          position: relative;
+      }
+      .region-promo.region-promo2.ColorBlue .promo-appicon{
+            background: url(../images/Clinic/Clinic.svg) no-repeat 0 0/auto 96px;
+      }
+      .region-promo.region-promo2 .promo-appicon {
+          height: 96px;
+          width: 96px;
+          left: 30px;
+          position: absolute;
+          top: 60px;
+          background: url(../images/Hospital/Hospital.svg) no-repeat 0 0/auto 96px;
+          padding-top: 100px;
+          text-align: center;
+      }
+      .region-promo.region-promo2 .promotion-app h3 {
+          font-size: 23px;
+          margin-bottom: 5px;
+          color: #000000;
+          margin-top: 0;
+      }
+      .region-promo.region-promo2 .promotion-app p {
+          font-size: 14px;
+          font-weight: bold;
+          margin: 0 0 10px 0;
+            line-height: 15px;
+      }
+      .featured-section-wrap .region-promo.region-promo2.ColorBlue .learn-more{
+            background-color: #155fa6;
+      
+      }
+      .featured-section-wrap .region-promo.region-promo2 .learn-more{
+            padding: 3px 15px;
+            color: #fff;
+            float: left;
+            text-transform: capitalize;
+            font-size: 13px;
+      }
+      .featured-section-wrap .region-promo.region-promo2 .learn-more:hover,
+      .featured-section-wrap .region-promo.region-promo2 .learn-more:focus,
+      .featured-section-wrap .region-promo.region-promo2 .learn-more:active{
+            box-shadow: 1px 1px 2px 1px #b5b5b5;
+      }
+      .region-promo ul li {
+          border-bottom-color: transparent;
+      }
+      .region-promo.region-promo2 ul:after{
+            background-color: transparent;
+      }
+      .region-promo.region-promo2 li.zp-main-apps label{
+            font-size: 11px;
+            color: #777;
+      }
+      .region-promo.region-promo2 li.zp-main-apps .zp-main-apps-Innr {
+          color: #000000;
+          font-size: 16px;
+          position: relative;
+          display: inline-block;
+          padding: 0 0 0 80px;
+      }
+      /*.region-promo.region-promo2 li.zp-main-apps .zp-main-apps-Innr a {
+          font-size: 11px;
+          text-transform: capitalize;
+          border: 2px solid #009039;
+          padding: 3px 12px;
+          margin-top: 15px;
+          display: inline-block;
+          color: #009039;
+      }*/
+      .region-promo.region-promo2.ColorBlue li.zp-main-apps .zp-main-apps-Innr a{
+            color: #155fa6;
+            border-color: #155fa6;
+      }
+      .region-promo.region-promo2 li.zp-main-apps .zp-main-apps-Innr a {
+          font-size: 13px;
+          text-transform: capitalize;
+          border: 1px solid #009039;
+          padding: 2px 12px;
+          margin-top: 15px;
+          display: inline-block;
+          color: #009039;
+      }
+      .region-promo.region-promo2 li.zp-main-apps .zp-main-apps-Innr a:hover,
+      .region-promo.region-promo2 li.zp-main-apps .zp-main-apps-Innr a:focus,
+      .region-promo.region-promo2 li.zp-main-apps .zp-main-apps-Innr a:active{
+            box-shadow: 1px 1px 2px 1px #b5b5b5;
+      }
+      .region-promo.region-promo2 ul li b {
+          min-height: 30px;
+          line-height: 18px;
+          font-size: 18px;
+      }
+
+      .zp-apps .zp-main-apps-Innr > span, 
+      .region-promo.region-promo2 .zp-main-apps .zp-main-apps-Innr > span {
+          display: block;
+          background-image: url(../images/Hospital/Front-Desk.svg);
+          background-position: center top;
+          background-repeat: no-repeat;
+          margin: 0 auto 10px;
+          background-size: auto 80%;
+          height: 64px;
+          width: 64px;
+      }
+      .region-promo.region-promo2.ColorBlue .zp-main-apps.EHSCls02 .zp-main-apps-Innr > span {
+          background-image: url(../images/Hospital/Costing.svg);
+      }
+      .region-promo.region-promo2.ColorBlue .zp-main-apps.EHSCls03 .zp-main-apps-Innr > span {
+          background-image: url(../images/Hospital/billing.svg);
+      }
+      .region-promo.region-promo2.ColorBlue .zp-main-apps.EHSCls04 .zp-main-apps-Innr > span {
+          background-image: url(../images/Hospital/MIS.svg);
+      }
+      .region-promo.region-promo2.ColorBlue .zp-main-apps.EHSCls05 .zp-main-apps-Innr > span {
+          background-image: url(../images/Hospital/masters.svg);
+      }
+
+      .region-promo.region-promo2 .zp-main-apps.EHSCls02 .zp-main-apps-Innr > span {
+          background-image: url(../images/Hospital/Costing.svg);
+      }
+      .region-promo.region-promo2 .zp-main-apps.EHSCls03 .zp-main-apps-Innr > span {
+          background-image: url(../images/Hospital/ward.svg);
+      }
+      .region-promo.region-promo2 .zp-main-apps.EHSCls04 .zp-main-apps-Innr > span {
+          background-image: url(../images/Hospital/billing.svg);
+      }
+      .region-promo.region-promo2 .zp-main-apps.EHSCls05 .zp-main-apps-Innr > span {
+          background-image: url(../images/Hospital/TPA.svg);
+      }
+      .region-promo.region-promo2 .zp-main-apps.EHSCls06 .zp-main-apps-Innr > span {
+          background-image: url(../images/Hospital/MIS.svg);
+      }
+      .region-promo.region-promo2 .zp-main-apps.EHSCls07 .zp-main-apps-Innr > span {
+          background-image: url(../images/Hospital/masters.svg);
+      }
+
+/*------new channel partner------*/
+.channelPartnerOutr .region-promo.region-promo2{
+    min-height: 380px;
+    padding-bottom: 50px;
+}
+.channelPartnerOutr .region-promo.region-promo2 .promotion-app{
+    background: none;
+}
+.featured-section-wrap .content-wrap.channelPartnerOutr  .contwrapH5 {
+    text-align: center;
+    padding: 0 0 10px 0;
+    color: #333;
+    background: linear-gradient(to right, rgba(229, 241, 253, 1) 0%, rgba(249, 249, 249, 0.23) 85%, rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+}
+
+
+      
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .featured-section-wrap .content-wrap.channelPartnerOutr .contwrapH5 {
+        max-width: 600px;
+    }
+
+}
+
+
+@media only screen and (max-width:767px) {
+      .region-promo.region-promo2 .promotion-app .promotion-app-Innr {
+          padding: 80px 20px 30px;
+          text-align: center;
+      }
+      .region-promo.region-promo2 .promo-appicon {
+          top: 0;
+          right: 0;
+          left: 0;
+          margin: 0 auto;
+      }
+      .region-promo.region-promo2 .promotion-app h3 {
+          margin-top: 25px;
+      }
+      .region-promo.region-promo2 ul li {
+          padding: 30px 0 0;
+          width: 32%;
+          text-align: center;
+      }
+      .region-promo.region-promo2 .promotion-app p{
+            text-align: center;
+      }
+      .featured-section-wrap .region-promo.region-promo2 .learn-more{
+            float: none;
+      }
+      .region-promo.region-promo2 li.zp-main-apps .zp-main-apps-Innr{
+            padding: 0;
+            border: 1px solid #fbfbfb;
+      }
+      .region-promo.region-promo2 ul li span {
+          position: static;
+          left: 0;
+          transform: scale(0.8);
+      }
+      .region-promo.region-promo2 ul li b {
+          font-size: 12px;
+          width: 100%;
+          display: block;
+          min-height: 55px;
+      }
+      .channelPartnerOutr .region-promo.region-promo2 {
+            padding-bottom: 0;
+        }
+        .featured-section-wrap .content-wrap.channelPartnerOutr .contwrapH5 {
+            max-width: 450px;
+            background: none;
+        }
+}
+/*@media (max-width: 480px){
+      .region-promo .promotion-app a {
+          padding: 80px 20px 30px;
+      }
+}*/

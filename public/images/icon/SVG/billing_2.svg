@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 40" width="30" height="40">
+	<title>billing_2</title>
+	<defs>
+		<image  width="30" height="40" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAoCAMAAADezbogAAAAAXNSR0IB2cksfwAAAftQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////VPYrHQAAAKl0Uk5TAH7/joRhYHychmROCAlIG1k/1vv+9IpdQWxSWH2eRtLhAmqUB/IsOKoeIAOPyQtHi4EvSl5D3SQ5e4B/HwHu5/16mbAEdSInIRBFVh0yZfMStTX1MSMRkp1zmhm5xcTAKRgc7/f28TPN1c8rCk1UdG1uaYJiGrS2rensdhdv/EQMv+3gaxMOV+LY39tyr4xPSUxQSw+36DxoedNn+CYuLQVAwzpfkD0+jdBrX8sAAAJSSURBVHicddQLW9JQGMDxlxcRClArSCSkTDIZQZmVilIYiVgkZEWaWqCklQkYKdrNiuxiF0IrstLu1sds55xNBtH/4dmz8WM7O9sYgAxLJgeaDMsU5YriypWoooyboGSbkbE6/5VGu5GmAispV4m4Zes2XT5+eP12nqsFNSDWVOUzGnaYsHaDzbhzV13R+LtR5Aqst+xpKOK9IpuxEazIgW2f3V7rEHm/wGY8ANDET+UguSLNIjfzfAjgMB5paW1DJ1hrCLd3CGyxEnYdxWM6dHfCcUQd/XhczE8QtmCXt9sH0MOuNplyC9WTyPgU3fIzIovTkrEt2Eu3tAHx4BgUroWUocHUSPY+094KpRigj7BR3PqHubM8n/svA3jP59fzHLrQT1KVDQw4VXT1IifhwaHhSwUNXw5L2BUZqSzIH2EHr6bsHY1eKSg6Ni5h6IkUFZTu7b96rajrExK+MRkzCsWd8UQiMXUzRFnBJqZsYiVl4qzrKN+iPD0zJJSagFnE6NztO4TvatipTfs4ms/vAvM9Od6fHyH8wEaZm9MHaPrRPkjaHz7C9GPJ2OBYCIZIwScA3Yanz7CLzbuXcsfz9OJiOs0vXoxD7OUrfC3ckgxl7ZtsVr2UWVJnl9/CO3yfE+9YJ/8/+wDBFZOyjWRasYLj45hW4Hr8ZOZvy+BsaoaW8oT5E/mMC4xB7kZcBtfq2hfaWthGHgrEVfogA3zl+AfZG9C5aboofQ6/fY8B/BDeEEko2U/GvzCuXs+t03K/sxk+dXYyM4Ue9rM/pV9e/fAX012k6JWtBP4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

@@ -1,0 +1,1751 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<!--google analyticle code-->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-57L6LQ28CP"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		              function gtag(){dataLayer.push(arguments);}
+		              gtag('js', new Date());
+		            
+		              gtag('config', 'G-57L6LQ28CP');
+	</script>
+	<!--google analyticle code-->
+	<meta charset="utf-8">
+	<title>SIS :: DocVeda : Appointment</title>
+	<meta name="generator" content="Bootply" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Toggle Sidebar Menu and  HTML Template for your web page" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/dashboard_inner.css" rel="stylesheet">
+	<link href="css/media_query.css" rel="stylesheet">
+	<link href="css/dashboard_custom_styles.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+	<!-- Include Date Range Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker3.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="logo_div">
+				<img src="images/Login-Icons/DocVedaLogo-01.svg">
+			</div>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#menu-toggle" id="menu-toggle"> <span class="glyphicon glyphicon-align-justify" aria-hidden="true">
+                    </span>
+				</a>
+				<div class="dashboard_title H-L" style="padding:0px;">
+					<h4 style="margin-top:0px; margin-bottom:0px">
+                        <img src="images/Clinic/Clinic.svg" class="MainHeadBoxCenter hlogo" style="margin-top: 2px; height: 55px;">
+                    </h4>
+				</div>
+				<div class="dashboard_title"> <strong>Appointment</strong>
+				</div>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="bell_icon">
+						<a href="index.html">
+							<img src="images/dashboard_inner_icons/Notifications-01.svg"> <span class="red_dot"></span>
+						</a> <small class="badge_style"></small>
+					</li>
+					<li class="dropdown" id="menuLogin">
+						<a class="dropdown-toggle navUserDtl" href="#" data-toggle="dropdown" id="navLogin" style="">
+							<img src="images/dashboard_inner_icons/User_icon-01.svg" class="ProfImg"> <span class="UserName">Rupesh D</span>
+							<img src="images/dashboard_inner_icons/DownArrowWhite-01.svg" class="ProfRightArrow"> <small class="sub_heading">Receptionist</small>
+						</a>
+						<div class="dropdown-menu dropdownInrDiv" style=""> <a data-toggle="modal" role="button" href="#">Profile</a>
+							<a data-toggle="modal" role="button" href="#">Logout</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="wrapper" class="toggled1">
+		<div class="container-fluid">
+			<!-- Sidebar -->
+			<div id="sidebar-wrapper">
+				<ul class="sidebar-nav">
+					<!--<li class="sidebar-brand">
+                            sgfsdfg
+                            </li>-->
+					<li>
+						<input type="text" class="form-control" id="search" placeholder="Search..." style="border-radius: 0;">
+					</li>
+					<li>
+						<a href="#" class="menu_1 collapsed" data-toggle="MenuLevl2" id="SubMenu01" data-target="#" aria-expanded="false">
+							<div class="lft_menu_icon">
+								<img class="show_icon_menu" src="images/dashboard_inner_icons/BillingManagement2-01.svg">
+								<img class="show_icon_menu_hover" src="images/dashboard_inner_icons/BillingManagement-01.svg">
+							</div> <span class="lft_menu_txt">Front Desk</span>
+						</a>
+						<ul class="MenuLevl2" id="FrontDeskMenu">
+							<li>
+								<a href="PatientRegistration_Clinic_index.html">
+									<img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+									<img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Patient Registration</span>
+								</a>
+							</li>
+							<li>
+								<a href="View_Appointment_clinic.html">
+									<img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+									<img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Schedule Appointments</span>
+								</a>
+							</li>
+							<li>
+								<a href="View_AppointmentList_clinic.html">
+									<img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+									<img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>View Appointments</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="login_Clinic.html" class="menu_1 collapsed" id="SubMenu04" data-target="#" aria-expanded="false">
+							<div class="lft_menu_icon">
+								<img class="show_icon_menu" src="images/dashboard_inner_icons/ClinicalProfile-01.svg">
+								<img class="show_icon_menu_hover" src="images/dashboard_inner_icons/ClinicalProfile2-01.svg">
+							</div> <span class="lft_menu_txt">Doctor Desk</span>
+						</a>
+					
+					</li>
+					<li>
+						<a href="#" class="menu_1 collapsed" data-toggle="MenuLevl2" id="SubMenu05" data-target="#" aria-expanded="false">
+							<div class="lft_menu_icon">
+								<img class="show_icon_menu" src="images/dashboard_inner_icons/ManagementInformationSystems-01.svg">
+								<img class="show_icon_menu_hover" src="images/dashboard_inner_icons/ManagementInformationSystems2-01.svg">
+							</div> <span class="lft_menu_txt">Billing</span>
+						</a>
+						<ul class="MenuLevl2" id="OperationMenu">
+							<!-- <li>
+                                <a href="Consultation_billing_clinic.html">
+                                    <img class="show_icon_menu1"
+                                        src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+                                    <img class="show_icon_menu_hover1"
+                                        src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Consultation
+                                        Billing</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Investigation_billing_clinic.html">
+                                    <img class="show_icon_menu1"
+                                        src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+                                    <img class="show_icon_menu_hover1"
+                                        src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Investigation
+                                        Billing</span>
+                                </a>
+                            </li> -->
+							<li>
+								<a href="View_Billing_clinic.html#">
+									<img class="show_icon_menu1"
+										src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+									<img class="show_icon_menu_hover1"
+										src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Consultation/Investigation
+										</span>
+								</a>
+						</li>
+						<li>
+                                <a href="Patient_Receipt_Clinic.html">
+                                    <img class="show_icon_menu1"
+                                        src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+                                    <img class="show_icon_menu_hover1"
+                                        src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Patient Receipt 
+                                        </span>
+                                </a>
+                            </li>
+							
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="menu_1 collapsed" data-toggle="MenuLevl2" id="SubMenu06" data-target="#" aria-expanded="false">
+							<div class="lft_menu_icon">
+								<img class="show_icon_menu" src="images/dashboard_inner_icons/FinancialAccounting-01.svg">
+								<img class="show_icon_menu_hover" src="images/dashboard_inner_icons/FinancialAccounting2-01.svg">
+							</div> <span class="lft_menu_txt">Cancellation</span>
+						</a>
+						<ul class="MenuLevl2" id="BillMenu">
+							<li>
+								<a href="Bill_cum_receipt_cancellation_clinic.html">
+									<img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+									<img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Bill Cum Receipt Cancellation</span>
+								</a>
+							</li>
+							<!-- <li>
+                                <a href="Receipt-Cancellation_clinic.html">
+                                    <img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+                                    <img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg">
+                                    <span>Receipt Cancellation</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Refund-Cancellation_cilnic.html">
+                                    <img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+                                    <img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg">
+                                    <span>Refund</span>
+                                </a>
+                            </li> -->
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="menu_1 collapsed" data-toggle="MenuLevl2" id="SubMenu06" data-target="#" aria-expanded="false">
+							<div class="lft_menu_icon">
+								<img class="show_icon_menu" src="images/dashboard_inner_icons/ServiceManagementSystems-01.svg">
+								<img class="show_icon_menu_hover" src="images/dashboard_inner_icons/ServiceManagementSystems2-01.svg">
+							</div> <span class="lft_menu_txt">Master</span>
+						</a>
+						<ul class="MenuLevl2" id="BillMenu">
+							<li>
+								<a href="Final-Bill.html">
+									<img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+									<img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Service</span>
+								</a>
+							</li>
+							<li>
+								<a href="MISC-Tariff-Scheme-Master_clinic.html">
+									<img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+									<img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Tariff</span>
+								</a>
+							</li>
+							<li>
+								<a href="MISC-Patient-Type-Master_clinic.html">
+									<img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+									<img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Patient Type</span>
+								</a>
+							</li>
+							<li>
+								<a href="CL-Operation-Doctor-Master_Clinic.html">
+									<img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+									<img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Doctor</span>
+								</a>
+							</li>
+							<li>
+								<a href="HL-Clinic-Information-Master_clinic.html">
+									<img class="show_icon_menu1" src="images/dashboard_inner_icons/Clinical_Master_2-01.svg">
+									<img class="show_icon_menu_hover1" src="images/dashboard_inner_icons/Clinical_Master-01.svg"> <span>Clinic</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="menu_1 collapsed" data-toggle="MenuLevl2" id="SubMenu08" data-target="#" aria-expanded="false">
+							<div class="lft_menu_icon">
+								<img class="show_icon_menu" src="images/dashboard_inner_icons/MaterialManagement-01.svg">
+								<img class="show_icon_menu_hover" src="images/dashboard_inner_icons/MaterialManagement2-01.svg">
+							</div> <span class="lft_menu_txt">Reports</span>
+						</a>
+						
+					</li>
+					<li class="li_line"></li>
+					<li>
+						<a href="#" class="menu_11">
+							<div class="lft_menu_icon">
+								<img class="show_icon_menu" style=" margin-left: -7px;" src="images/dashboard_inner_icons/Settings-01.svg">
+							</div> <span class="lft_menu_txt" style="color: #cacbcd !important">Settings</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="menu_11">
+							<div class="lft_menu_icon">
+								<img class="show_icon_menu" style=" margin-left: -7px;" src="images/dashboard_inner_icons/Help-01.svg">
+							</div> <span class="lft_menu_txt" style="color: #cacbcd !important">Help</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /#sidebar-wrapper -->
+			<!-- Page Content -->
+			<div id="page-content-wrapper">
+				<div class="container-fluid">
+					<div class="row">
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="dashboard_inner_clinic.html">Front Desk</a>
+								</li>
+								<li class="breadcrumb-item active" aria-current="page">Book Appointment</li>
+							</ol>
+						</nav>
+					</div>
+					<div class="row">
+						<div class="TopBar">
+							<ul class="TopBarUl">
+								<li>
+									<!-- <label>Application Message Center : </label> --> <span> Application message are showing here... </span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						
+						<div class="col-md-12" style="padding: 0px; margin-top:15px;">
+							<div class="menu_header">
+								<div class="col-md-8">
+									<ul class="TopBarUl">
+										<li>
+											<button type="button">
+												<img src="images/add.svg" /> <span>Add</span>
+											</button>
+										</li>
+										<li>
+											<button type="button" type="button" class="btn btn-primary" data-toggle="modal" data-target="#">
+												<img src="images/Edit-01.svg" /> <span>Edit</span>
+											</button>
+										</li>
+										<li>
+											<button type="button" type="button" class="btn btn-primary" data-toggle="modal" data-target="#">
+												<img src="images/Edit-01.svg" /> <span>View</span>
+											</button>
+										</li>
+										<li>
+											<button type="button">
+												<img src="images/Save-01.svg" /> <span>Save</span>
+											</button>
+										</li>
+										<li>
+											<button type="button" type="button" class="btn btn-primary" data-toggle="modal" data-target="">
+												<img src="images/Search-01.svg" /> <span>Search</span>
+											</button>
+										</li>
+										<li>
+											<button type="button">
+												<img src="images/reset.svg" /> <span>Reset</span>
+											</button>
+										</li>
+										<li>
+                                            <button type="button" id="btncancel">
+                                                <img src="images/Cancel-01.svg" /> <span>Cancel</span>
+                                            </button>
+                                        </li>
+										<!-- <li>
+											<button type="button">
+												<img src="images/Cancel-01.svg" /> <span><a href="View_AppointmentList_clinic.html" style="color:#999;">View Appontment List</a></span>
+											</button>
+										</li> -->
+									</ul>
+								</div>
+								</div>
+						</div>
+						
+						<div class="TopBar" style="margin-top:15px;">
+							
+                           
+							<div class="row">
+								<div class="col-md-12" style="padding: 0px; margin-top:8px;">
+									<div class="menu_header">
+									</div>
+								</div>
+							</div>
+							<!-- <h4 class="ContTitle">Patient Registration</h4> -->
+							
+							
+                                    <div class="row">
+                                        <div class="col-md-10 col-xs-12">
+                                           <h5 class="section-title">Patient Information</h5>
+                                        </div>
+                                        <div class="col-md-2 col-xs-12" style="font-size:13px;">
+                                            <strong>Note: </strong><span class="colorRed">*</span> Required field.
+                                        </div>
+                                    </div>
+                               
+							<div class="row">
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Registartion No. :</label>
+										<label for="" style="font-weight:500;">Rg/21043</label>
+										
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Patient Name :</label>
+										<label for="" style="font-weight:500;">Rupesh Tiwari</label>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Date of Birth :</label>
+										<label for="" style="font-weight:500;">	21/02/1985</label>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Age :</label><br>
+										<label for="" style="font-weight:500;">38 Year</label>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Gender :</label><br>
+										<label for="" style="font-weight:500;">Male</label>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Mobile No. :</label><br>
+										<label for="" style="font-weight:500;">9485221445</label>
+										
+									</div>
+								</div>
+								
+							</div>
+							
+							
+							<div class="row">
+								
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Email ID :</label>
+										<label for="" style="font-weight:500;">rupeshtiwari@gmail.com</label>
+									</div>
+								</div>
+								
+								<div class="col-md-4 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Address :</label><br>
+										<label for="" style="font-weight:500;">322, 3rd floor Vajreshwari APT, J.B.Nagar, Andheri East</label>
+									</div>
+								</div>
+								
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">City :</label><br>
+										<label for="" style="font-weight:500;">Mumbai</label>
+									</div>
+								</div>
+								
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Pin Code :</label><br>
+										<label for="" style="font-weight:500;">400 093</label>
+									</div>
+								</div>
+								
+								
+							</div>
+							<!-- <h4 class="ContTitle">Patient Registration</h4> -->
+							<h5 class="section-title">Schedule Appointment</h5>
+							<div class="row">
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Appointment Date :</label>
+										<input class="form-control" id="date" name="date" placeholder="07/08/2021" type="text" />
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Appointment Mobile No.<span class="colorRed">*</span> :</label>
+										<input class="form-control" placeholder="8696221445" type="text" />
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Appointment Email ID <span class="colorRed">*</span> :</label>
+										<input class="form-control" type="text" placeholder="rupeshtiwari@gmail.com" />
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Source <span class="colorRed">*</span> :</label>
+										<select class="form-control" id="txt">
+											
+											<option value="1">Walk-in</option>
+											<option value="1">On Phone</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Clinic Branch <span class="colorRed">*</span> :</label>
+										<select class="form-control" id="txt">
+											
+											<option value="1">Khar</option>
+											<option value="1">Bandra</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Specialisation <span class="colorRed">*</span> :</label>
+										<select class="form-control" id="txt">
+											
+											<option value="1">Opthalmolgy</option>
+											<option value="1">ENT</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Doctor Name <span class="colorRed">*</span> :</label>
+										<select class="form-control" id="txt">
+											<option value="0">Rupesh 1</option>
+											<option value="1">Rupesh 2</option>
+											<option value="1">Rupesh 3</option>
+										</select>
+									</div>
+								</div>
+								
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Referring Doctor / Organization :</label>
+										<input class="form-control" type="text" placeholder="Dr. Ravi" />
+									</div>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col-md-7">
+<div >
+<script type="text/javascript" src="./appointment.js"></script>
+	
+</div>
+    </div>
+
+      <!-- <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Contact Appointment Patient</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body"><table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Appointment Mobile</th>
+        <th> Appointment Email ID</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>8696221445</td>
+        <td>rupeshtiwari@gmail.com</td>
+      
+      </tr>
+     
+    </tbody>
+  </table></div>
+      </div>
+    </div> -->
+   <!--  <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Patient Visit history 2</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+  </div>  -->
+</div>
+								</div>
+							</div>
+							<!--Content area end-->
+							<!-- button group section start -->
+							<!-- <div class="col-md-12 col-xs-12" style="margin-top:15px; text-align: center;">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-primary">Book an Appointment</button>
+                                </div>
+                            </div> -->
+							<!-- button group section end -->
+						</div>
+					</div>
+				</div>
+				<!-- /#page-content-wrapper -->
+			</div>
+			<!-- start patient search modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+							</button>
+							<div class="row">
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<!--  <input type="text" class="form-control" id="txtWardCode"> -->
+										<label for="txtWardCode">Search by</label>
+									</div>
+								</div>
+								<div class="col-md-6 col-xs-12">
+									<div class="form-group form-group2">
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Search</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-body">
+							<!-- <div class="col-md-12 col-xs-12 padding0"> -->
+							<div class="table-reponsive">
+								<table class="table table-bordered">
+									<thead>
+										<tr>
+											<th>Select</th>
+											<th>Registration No.:</th>
+											<th>Patient Name:</th>
+											<th>Date of Birth:</th>
+											<th>Mobile No.:</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<div class="radio">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+													</label>
+												</div>
+											</td>
+											<td>Rg/21055</td>
+											<td>Rupesh</td>
+											<td>21/06/1993</td>
+											<td>9854221445</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="radio">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+													</label>
+												</div>
+											</td>
+											<td>Rg/21055</td>
+											<td>Rupesh</td>
+											<td>21/06/1993</td>
+											<td>9854221445</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="radio">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+													</label>
+												</div>
+											</td>
+											<td>Rg/21055</td>
+											<td>Rupesh</td>
+											<td>21/06/1993</td>
+											<td>9854221445</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="radio">
+													<label>
+														<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+													</label>
+												</div>
+											</td>
+											<td>Rg/21055</td>
+											<td>Rupesh</td>
+											<td>21/06/1993</td>
+											<td>9854221445</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<!-- </div> -->
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+			<!-- /.modal -->
+			<!-- /.modal -->
+			<!-- end patient search modal -->
+			<!-- start patient search modal -->
+			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+							</button>
+							<div class="col-md-12 col-xs-12">
+								<h4 class="ContTitle">Patient Registration</h4> 
+								<!-- <div class="row">
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										
+										<label for="txtWardCode">Search by</label>
+									</div>
+								</div>
+								<div class="col-md-6 col-xs-12">
+									<div class="form-group form-group2">
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Search</button>
+									</div>
+								</div>
+							</div> --></div>
+						</div>
+						<!--Content area start-->
+						<div class="TopBar" style="margin-top:15px;">
+							<!--                                 <h5 class="section-title">Patient Details <input type="radio" id="html" name="fav_language" value="HTML" style="margin-left: 40px;">
+ --> 
+							<!--  <label for="html">For My Self</label>   <input type="radio" id="html" name="fav_language" value="HTML" style="margin-left: 40px;">
+								  <label for="html">For Other</label><br></h5> -->
+							<div class="row">
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="txtWardName">Registration No.:</label>
+										<input type="text" class="form-control" id="txtWardName" disabled="" value="15425142">
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Patient Type :</label>
+										<select class="form-control" id="txt">
+											<option value="0">Select</option>
+											<option value="1">Patient Type 1</option>
+											<option value="2">Patient Type 2</option>
+											<option value="2">Patient Type 3</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-4 col-xs-12"></div>
+								<div class="col-md-2 col-xs-12" style="background-color:#eee; height:100px; width:130px; border:1px color:#000 dash">
+									<button type="" style="margin-top:110px; width:95px; height:25px; font-size:10px;">Capture Image</button>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Prefix :</label>
+										<select class="form-control" id="txt" style="padding:5px;">
+											<option value="0">Select</option>
+											<option value="1" selected="">Mr.</option>
+											<option value="2">Ms.</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">First Name<span class="colorRed">*</span>:</label>
+										<input type="text" class="form-control" id="txtWardName">
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<div class="form-group form-group2">
+											<label for="">Middle Name:</label>
+											<input type="text" class="form-control" id="txtWardName">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Last Name :</label>
+										<input type="text" class="form-control" id="txtWardName">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Gender<span class="colorRed">*</span>:</label>
+										<select class="form-control" id="txt">
+											<option value="0">Select</option>
+											<option value="1">Male</option>
+											<option value="2">Female</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Date of Birth :</label>
+										<input class="form-control" id="date" name="date" placeholder="DD/MM/YYYY" type="text" />
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="txtWardName">Age on Registration <span class="colorRed">*</span>:</label>
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Content area end-->
+						<!-- Address section start -->
+						<div class="TopBar" style="margin-top:15px;">
+							<h5 class="section-title">Address</h5>
+							<div class="row">
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="txtWardCode">Building Name / Block No.:</label>
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="txtWardCode">Street / Road Name:</label>
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">City<span class="colorRed"> *</span>:</label>
+										<select class="form-control" id="txt">
+											<option value="0">Select</option>
+											<option value="1">Mumbai</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">District <span class="colorRed">*</span>:</label>
+										<select class="form-control" id="txt">
+											<option value="0">Select</option>
+											<option value="1">Maharashtra</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="txtWardCode">Pin code:</label>
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">State <span class="colorRed">*</span>:</label>
+										<select class="form-control" id="txt">
+											<option value="0">Select</option>
+											<option value="1">Maharashtra</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="">Country <span class="colorRed">*</span>:</label>
+										<select class="form-control" id="txt">
+											<option value="0">Select</option>
+											<option value="1">India</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Address section end -->
+						<!-- Contact Details section start -->
+						<div class="TopBar" style="margin-top:15px;">
+							<h5 class="section-title">Contact Details</h5>
+							<div class="row">
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="txtWardCode">Mobile No. 1 <span class="colorRed">*</span> :</label>
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="txtWardCode">Mobile No. 2 :</label>
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="txtWardCode">Email Id :</label>
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="txtWardCode">Aadhar No. :</label>
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+								<div class="col-md-3 col-xs-12">
+									<div class="form-group form-group2">
+										<label for="txtWardCode">Pan No. :</label>
+										<input type="text" class="form-control" id="txtWardCode">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Contact Details section end -->
+						<div class="col-md-12 col-xs-12" style="margin-top:15px; text-align: left;">
+							<div class="btn-group">
+								<button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#DeactiveModal" style="width: 80px; font-size: 9px;">Deactivate</button>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Save</button>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+			<!-- /.modal -->
+			<!-- end patient search modal -->
+			<!-- start patient search modal -->
+			<div class="modal fade" id="AppointmentConfiremModal" tabindex="-1" role="dialog">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+							</button>
+							<h4 class="modal-title">Appointment Details</h4>
+						</div>
+						<div class="modal-body">
+							<h5>Your Appontment Details :</h5>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Appointment for :</label>
+										<select class="form-control" id="txt" disabled="disabled">
+											<option value="0">OPD Consultation</option>
+											<option value="1" selected="">OPD Investigation</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Sources :</label>
+										<select class="form-control" id="txt" disabled="disabled">
+											<option value="0">Select</option>
+											<option value="1" selected="">India</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Doctor Clinic :</label>
+										<select class="form-control" id="txt" disabled="disabled">
+											<option value="0">Select</option>
+											<option value="1" selected="">India</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Clinic Branch :</label>
+										<select class="form-control" id="txt" disabled="disabled">
+											<option value="0">Select</option>
+											<option value="1" selected="">India</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Doctor Name :</label>
+										<select class="form-control" id="txt" disabled="disabled">
+											<option value="0">Select</option>
+											<option value="1" selected="">India</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Payment :</label>
+										<select class="form-control" id="txt" disabled="disabled">
+											<option value="0">Select</option>
+											<option value="1" selected="">Offline</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Date :</label>
+										<input type="text" class="form-control" id="txtWardCode" disabled="disabled" value="12/04/2021">
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group form-group2">
+										<label for="">Time :</label>
+										<input type="text" class="form-control" id="txtWardCode" disabled="disabled" value="03:00 PM">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12"> <strong>
+                                        Do you want to continue with this appointment ?
+                                    </strong>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<div class="btn-group" style="margin-top: 18px;">
+								<button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+								<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+							</div>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+			<!-- /.modal -->
+			<!-- end patient search modal -->
+		</div>
+		<!-- start Registration No modal -->
+		<div class="modal fade" id="RegistrationNoModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">Registration No.</h4>
+					</div>
+					<div class="modal-body">
+						<!-- <div class="col-md-12 col-xs-12 padding0"> -->
+						<div class="table-reponsive">
+							<table class="table table-bordered">
+								<thead>
+									<tr>
+										<th>Select</th>
+										<th>Registration Year/Month/Running No.</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- </div> -->
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+		<!-- search section start -->
+                        <div class="TopBar" style="margin-top:5px; display:none;" id="search_div">
+                            <h5 class="section-title">Search</h5>
+                            <!--   <h5 class="section-title">Search</h5> -->
+                            <div class="row" style="margin-top: 10px;">
+                                <div class="col-md-3 col-xs-12">
+                                    <div class="form-group form-group2">
+                                        <label for="txtWardCode">Registration No.:</label>
+                                        <input type="text" class="form-control" id="txtWardCode">
+                                        <!--                                             <button type="button" class="btn default btn-width-100" data-toggle="modal" data-target="#RegistrationNoModal">Click</button>
+                                           -->
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-2 col-xs-12">
+                                   <div class="form-group form-group2">
+                                       <label for="txtWardCode">Admission No. :</label>
+                                       <button type="button" class="btn default btn-width-100" data-toggle="modal" data-target="#AdmissionModal">Click</button>
+                                   </div>
+                                   </div>
+                                   <div class="col-md-2 col-xs-12">
+                                   <div class="form-group form-group2">
+                                       <label for="txtWardCode">Visit No:</label>
+                                       <button type="button" class="btn default btn-width-100" data-toggle="modal" data-target="#VisitModal">Click</button>
+                                   </div>
+                                   </div> -->
+                                <div class="col-md-3 col-xs-12">
+                                    <div class="form-group form-group2">
+                                        <label for="txtWardCode">Patient Name:</label>
+                                        <input type="text" class="form-control" id="txtWardCode">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-xs-12">
+                                    <div class="form-group form-group2">
+                                        <label for="txtWardCode">Date of Birth:</label>
+                                        <input type="text" class="form-control" id="txtWardCode">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-xs-12">
+                                    <div class="form-group form-group2">
+                                        <label for="txtWardCode">Mobile No.:</label>
+                                        <input type="text" class="form-control" id="txtWardCode">
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-xs-12">
+                                    <!-- <div class="btn-group" style="margin-top: 18px;">
+                                       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Search</button>
+                                       <button type="button" class="btn btn-default" style="margin-left:10px;">Clear</button>
+                                       </div> -->
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="table-reponsive">
+                                        <table class="table table-bordered" id="table1">
+                                            <thead>
+                                                <tr>
+                                                    <th style="text-align:center;">Select</th>
+                                                    <th>Registration No.:</th>
+													<th>Registration Date:</th>
+                                                    <th>Patient Name:</th>
+													<th>Last Visit Date:</th>
+                                                    <th>Mobile No.:</th>
+													 <th>Date of Birth:</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21043</td>
+													<td>03/02/2021</td>
+                                                    <td>Rupesh Tiwari</td>
+													<td>10/02/2021</td>
+													<td>9485221445</td>
+                                                    <td>21/02/1985</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21072</td>
+													 <td>05/02/2021</td>
+                                                    <td>Rupesh Kadam</td>
+													<td>8/02/2021</td>
+													<td>8956221445</td>
+                                                    <td>07/02/1995</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21073</td>
+													<td>10/02/2021</td>
+                                                    <td>Rupesh Rao</td>
+													<td>12/02/2021</td>
+													 <td>8696221445</td>
+                                                    <td>7/02/1998</td>
+                                                   
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21075</td>
+													<td>19/02/2021</td>
+                                                    <td>Rupesh prajapati</td>
+													<td>25/02/2021</td>
+													<td>9856221445</td>
+                                                    <td>7/02/1986</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21042</td>
+													<td>30/03/2021</td>
+                                                    <td>Rupesh Laxman Rao</td>
+													<td>05/03/2021</td>
+													<td>8956221444</td>
+                                                    <td>7/02/1995</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21045</td>
+													<td>04/04/2021</td>
+                                                    <td>Rupesh Mahadev prajapati</td>
+													<td>12/04/2021</td>
+													<td>9856221445</td>
+                                                    <td>7/02/1956</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21074</td>
+													<td>10/04/2021</td>
+                                                    <td>Rupesh Daksh Kadam</td>
+													<td>15/04/2021</td>
+													 <td>9856221445</td>
+                                                    <td>7/02/1978</td>
+                                                   
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21036</td>
+													<td>15/04/2021</td>
+                                                    <td>Rupesh Kumar Kadam</td>
+													<td>19/04/2021</td>
+													 <td>9526221445</td>
+                                                    <td>1/05/1983</td>
+                                                   
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21076</td>
+													<td>20/04/2021</td>
+                                                    <td>Rupesh Agarwal</td>
+													<td>22/04/2021</td>
+													<td>9854226589</td>
+                                                    <td>27/01/1986</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21056</td>
+													<td>25/04/2021</td>
+                                                    <td>Rupesh Anand</td>
+													<td>28/04/2021</td>
+													<td>9854227865</td>
+                                                    <td>25/08/1992</td>
+                                                    
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table class="table table-bordered" id="table2" style="display:none;">
+                                            <thead>
+                                                 <tr>
+                                                    <td>
+                                                        <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21043</td>
+													<td>03/02/2021</td>
+                                                    <td>Rupesh Tiwari</td>
+													<td>10/02/2021</td>
+													<td>9485221445</td>
+                                                    <td>21/02/1985</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21072</td>
+													 <td>05/02/2021</td>
+                                                    <td>Rupesh Kadam</td>
+													<td>8/02/2021</td>
+													<td>8956221445</td>
+                                                    <td>07/02/1995</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21073</td>
+													<td>10/02/2021</td>
+                                                    <td>Rupesh Rao</td>
+													<td>12/02/2021</td>
+													 <td>8696221445</td>
+                                                    <td>7/02/1998</td>
+                                                   
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21075</td>
+													<td>19/02/2021</td>
+                                                    <td>Rupesh prajapati</td>
+													<td>25/02/2021</td>
+													<td>9856221445</td>
+                                                    <td>7/02/1986</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21042</td>
+													<td>30/03/2021</td>
+                                                    <td>Rupesh Laxman Rao</td>
+													<td>05/03/2021</td>
+													<td>8956221444</td>
+                                                    <td>7/02/1995</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21045</td>
+													<td>04/04/2021</td>
+                                                    <td>Rupesh Mahadev prajapati</td>
+													<td>12/04/2021</td>
+													<td>9856221445</td>
+                                                    <td>7/02/1956</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21074</td>
+													<td>10/04/2021</td>
+                                                    <td>Rupesh Daksh Kadam</td>
+													<td>15/04/2021</td>
+													 <td>9856221445</td>
+                                                    <td>7/02/1978</td>
+                                                   
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21036</td>
+													<td>15/04/2021</td>
+                                                    <td>Rupesh Kumar Kadam</td>
+													<td>19/04/2021</td>
+													 <td>9526221445</td>
+                                                    <td>1/05/1983</td>
+                                                   
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21076</td>
+													<td>20/04/2021</td>
+                                                    <td>Rupesh Agarwal</td>
+													<td>22/04/2021</td>
+													<td>9854226589</td>
+                                                    <td>27/01/1986</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                         <div class="radio" style="text-align:center;">
+                                                            <label>
+                                                                <input type="radio" name="optionsRadios"
+                                                                    id="optionsRadios1" value="option1">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Rg/21056</td>
+													<td>25/04/2021</td>
+                                                    <td>Rupesh Anand</td>
+													<td>28/04/2021</td>
+													<td>9854227865</td>
+                                                    <td>25/08/1992</td>
+                                                    
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="row">
+                                            <!-- <div class="col-md-3">
+                                               <button type="button" class="btn btn-primary" onclick="location.href = 'Appointment_clinic.html';">Would you like to book an Appointment ?</button>
+                                               </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- search section End -->
+		<!-- end Registration No modal -->
+		<!-- start Admission No modal -->
+		<div class="modal fade" id="AdmissionModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">Admission No.</h4>
+					</div>
+					<div class="modal-body">
+						<!-- <div class="col-md-12 col-xs-12 padding0"> -->
+						<div class="table-reponsive">
+							<table class="table table-bordered">
+								<thead>
+									<tr>
+										<th>Select</th>
+										<th>Admission No.</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- </div> -->
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+		
+		
+		<!-- end Admission No modal -->
+		<!-- start Visit No modal -->
+		<div class="modal fade" id="VisitModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">Visits No.</h4>
+					</div>
+					<div class="modal-body">
+						<!-- <div class="col-md-12 col-xs-12 padding0"> -->
+						<div class="table-reponsive">
+							<table class="table table-bordered">
+								<thead>
+									<tr>
+										<th>Select</th>
+										<th>Visit No.</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+												</label>
+											</div>
+										</td>
+										<td></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- </div> -->
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+		<!-- end Visit No modal -->
+	</div>
+	
+	<!-- footer -->
+	<div class="footer">
+		<p class="float_lft">&#9400; All Rights Reserved 2019.</p>
+		<p class="float_rgt">Website Developed by SIS Healthcare Solutions</p>
+	</div>
+	<!-- end of footer -->
+	
+	
+	<!-- /#wrapper -->
+	<script type='text/javascript' src="js/jquery.min.js"></script>
+	<script type='text/javascript' src="js/bootstrap.min.js"></script>
+	<script type='text/javascript' src="js/Custom.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+	<script>
+		$('.logo_div').on('click', function() {
+		            window.location = "index.html";
+		        });
+	</script>
+	<script>
+		$(document).ready(function() {
+		            var date_input = $('input[name="date"]'); //our date input has the name "date"
+		            var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+		            date_input.datepicker({
+		                format: 'mm/dd/yyyy',
+		                container: container,
+		                todayHighlight: true,
+		                autoclose: true,
+		            })
+		
+		            /*---start li active code---*/
+		            $('.date-selection li').on('click', function() {
+		                //alert('clicked');
+		                $(this).siblings().removeClass('active');
+		                $(this).addClass('active');
+		            });
+		            /*---end li active code---*/
+		
+		            /*---start suitable li active code---*/
+		            $('.date-selection-time li').on('click', function() {
+		                //alert('clicked');
+		                $(this).siblings().removeClass('active');
+		                $(this).addClass('active');
+		            });
+		            /*---end suitable li active code---*/
+		        })
+	</script>
+	
+	 <script>
+        $(document).ready(function () {
+
+            $("#other").click(function () {
+                $("#ot_div").slideUp();
+                $("#ot_div").slideDown();
+				$("#ot_div1").slideUp();
+                $("#ot_div1").slideDown();
+				$("#ot_div2").slideUp();
+                $("#ot_div2").slideDown();
+
+            });
+
+          
+
+        });
+		</script>
+		
+		 <!-- <script>
+        $(document).ready(function () {
+                       
+            $("#btncancel").click(function () {
+                $("#search_div").slideUp();
+                $("#search_div").slideDown();
+                
+            });
+
+        });
+    </script> -->
+	
+	 <script>
+        $(document).ready(function () {
+                       
+            $("#cal_btn").click(function () {
+                $("#cal").slideUp();
+                $("#cal").slideDown();
+                
+            });
+
+        });
+    </script>
+
+    
+</body>
+
+</html>

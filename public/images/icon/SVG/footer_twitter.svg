@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 23" width="29" height="23">
+	<title>footer_twitter</title>
+	<defs>
+		<image  width="29" height="23" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAXCAMAAADA1rRbAAAAAXNSR0IB2cksfwAAAR1QTFRFzMzM////zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM/aAXzwAAAF90Uk5TAABXuOjuzX4IPiU/b6f/4DlEu+8Tm1qm/RQOunM6+YaYhcWuG/rnEJ70ehjEovVPi/aq2CoGZCa2/gH70QJpuQX8GhaD4bVGecgxUHBgTS4KaNtuDyNUofhLq49f8iKnOQixAAAA+0lEQVR4nG3P51bCQBAF4DsSiooDFiQIikok2FFQsHcULFiwl/d/DJPIZtdk76/Z8529OwsEQgMRIxqLJ4hocAgYTv7TEfaSSo+OjU8AGZ5UMMt+zNwUkGcu+DgtcaY4OwfMO1PJ6mtG6gKXbaDijotLy56uSOVVIr9srbKeA0qK2q6iKo4bsc2aonVHt7YbzR3WxXJ0N7W3b+rQOHCbD7UXmY/I1eOyXgueon6i1dM/xdn5RRhb1NfLq3ZYO0KvNb0REoqbEJq2VNwGH74jRYFuK/gbRe8fHhV8IqFWo/f88vqmmPFOvnY/Avt89kgqEl/56LdIrfhDSn4B39grDcLCkcMAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

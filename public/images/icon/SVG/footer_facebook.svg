@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 27" width="15" height="27">
+	<title>footer_facebook</title>
+	<defs>
+		<image  width="15" height="27" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAbCAMAAACUTyX1AAAAAXNSR0IB2cksfwAAAKVQTFRF////zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMtjziBAAAADd0Uk5TAD6c1e7y8b2K//t14hLscOupp01ERSq197PtBKYkQ0LG80oe2K7c0tmvJkbHTiCy7wvEDZvXB68QAIAAAACKSURBVHicxc5ZEoIwDIDhoFatigtScaN13wqC6/2PpkmxghzA/ynfZCYtgMmpVGuszhoZm9zUMmxn5B2i+yHvknvWffKAZm/oixE5QI7BNkFPZ9bz7ykIpVIL9HKlpFzDhufbwu7H+4K90v5Q8BFOWvgR3Y+F1ufS+1iCTi9/85X+erO+s3ePJ44vPpURe1vw8HkAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

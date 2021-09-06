@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" width="55" height="55">
+	<title>Operation-Consent-Form</title>
+	<defs>
+		<image  width="41" height="51" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAzCAMAAAA989E5AAAAAXNSR0IB2cksfwAAAW5QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////1thEDgAAAHp0Uk5TAAhcmaqiGTnh//fm6N3lVC7zVQZAUz7C8CMhhEtIUndWD/4VFj9BQkNEBxFFRkc4ZpL8zJoaNljSJEmRxakxSnbT8v2GbNAol2tMBbkNTRxOT1BRAT18lLO6sm3DPPuNEymtjy1jlgPH5MjcHp69+DCVKu1erN/nWpj3u0IGAAABhUlEQVR4nLXW91PCMBgG4A9w8IkgFsTFENx1A+IGBUHEgYogLtx7oLj/e5uqcJZcG73r+0PSXp67NGnSFABAo9VVKKWySoDVeqzRG7DWKBMT1gGY6w2cBazYADKxIQfQ2NQsXDLIFmwFNmlHR0k6XZQ4v2Ub2orS7UFKPO5y2U6DiB0/slMFaVVBdjHLbhVkjwqytygtJho08eUS+D5K+OIK6WdcdX+RA8xy8N9yaJjETpEOiRwRZsbr8zPI0cDYOHITFDkpkVPifE8zSOHzM4NB2ohCEjk7F47MU8dul8goxhaASUIcF+kyIZVLy94Em4SVWNhMk6tlEpLxKKMsy5dcY5brKsgNZpnaTGe2sritk8mOKHf36Nv8d/YFmcsdBA9p27cUP2ZAkJ6U3BOSHEWyQOSxEoQTPBXlGbnh6Mfl+QVpvLwiZQi1pHLRz8trDWn03ZDy1qNT7P3OmyTVff5BSabxkVSF8NOzRoG+RMQ3GHjFvF7ucDca3zBfIJR//2D4Z/gEmjNbrbfmThQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="7" y="2" />
+</svg>

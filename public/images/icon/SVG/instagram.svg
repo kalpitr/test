@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+	<title>instagram</title>
+	<defs>
+		<image  width="12" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAAXNSR0IB2cksfwAAAJ9QTFRF////9fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP7YQATOgAAADV0Uk5TAHPY8fL/eW3muX7t8JH7jM36ti9qQY+f/vPjK7q4OoZsb4KFcIHivcEq4LQuse6N7HR329zJxXx1AAAAfUlEQVR4nD2ObROBUBCFj+49XaGIvFwhL1GSUvz/32bLjOfL7jNzducAA0dpgXQBwx9DjyOMZZn4fjDFjAjJ+SKKlqu12sByG+/I/UEC0EyO3c3pTC1y6SW9ilje4ozM7wVt9+BRGlM+yRCVRKq6fslQSPmnAdp3X0d9XHwBIUsIMNitaY8AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

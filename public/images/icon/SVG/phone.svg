@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+	<title>phone</title>
+	<defs>
+		<image  width="14" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAAXNSR0IB2cksfwAAAIpQTFRF////9fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP7RGJ1DQAAAC50Uk5TAE/ovwFK/8kE9MsJ+xLF4E5ZRd53M/wiEHguQPLEApp8XfAFl8Z9QdNSZsDt4oefzcgAAABuSURBVHicTc1ZEoJADATQiNKIgLLLKoKyKve/HmFgRvOVV5V0Ex2044nU6ACMs6LJxMWStFfCkbwybq469pj+L4oCIPxjBMT3dUk2p4CWEeVF+RCu+P1ZN9z/En5jn3a776T3vH4QGlXB9PnOIy2KrgVkCFYjjgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

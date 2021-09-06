@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>footer_linkedin</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAANJQTFRFzMzMzMzMzMzMzMzMzMzM////zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM0s9RrQAAAEZ0Uk5TAJXs5HcAl/9i1frJdEVqxLxNBwwFBg04Zk8ZivLw8V3zG8v4lp5riIPos5JjfkSqoyAJMtnX3j7pCgN1BObnnYD5XnHb5RsxSgUAAADESURBVHicvdDFEsJAEATQAQLBLYIlgeDu7vr/v8Q0UMBSe6Yv07XvMFtD5PH6FPrE/woFVE5QAnhXQxIIAyISiAJiEqB4IpmSLf/NG9Kabpg6kWFqmpkmymTjuTygYNm2UyRSLNspuW4ZKytVhhpanaiB2Wypz7T91MHsEvV4hNV3+gIg3ucY/MBwNJ5MUWYizPHdBdpShAJgVeHmiBAFrPG1kggbwHbHzRJBAej7v8Hh+4jHB5xQ+eycM87OuTzgyu12B0ZTG9r3BMw3AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

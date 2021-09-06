@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+::-webkit-scrollbar {
+  height: 4px; /* height of horizontal scrollbar ← You're missing this */
+  width: 10px; /* width of vertical scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(100, 181, 246);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(34, 148, 241);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* #root > div > div > div > div:nth-child(1) > div > div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.OverlayBase-absolutePosition-4.OverlayBase-paper-5.OverlayBase-halfSize-7.OverlayBase-transition-8.MuiPaper-elevation16 > div > div.LayoutBase-container-305 > div > div.MuiGrid-root.LayoutBase-booleanEditors-321.MuiGrid-container{
+  display: none;
+} */
+
+.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1{
+  display: none;
+}
+
+
+.MuiButtonBase-root.MuiIconButton-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiIconButton-colorPrimary{
+  display: none;
 }

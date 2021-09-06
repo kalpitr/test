@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 10" width="12" height="10">
+	<title>twitter</title>
+	<defs>
+		<image  width="12" height="10" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAMAAAC38k/IAAAAAXNSR0IB2cksfwAAAIFQTFRF9fP7////9fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP7LF4lEAAAACt0Uk5TBgACh5wrFhM9ywrN//k18WMIwhAMv9n9ahROTPIE6mu7qhuK3H0JUpKUHlkzJMkAAABjSURBVHicNY1JFoJAEENT2tiCBdKC0swIDuD9D0iVPLL6P4sEIM3haIKTxTmMRC7MHCewfE2dE+Zbhvwu3aMQ8YSS91QEqpuNi1YE3SY9kS4Pyk8BjNNLZ9/6hs93Nov//a9XT68F6pmhKgIAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

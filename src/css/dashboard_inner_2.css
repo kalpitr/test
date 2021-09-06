@@ -1,0 +1,124 @@
+.dashboard_inner_card_head .thumbnail.inner_2 {
+	    text-align: left ;
+}
+.dashboard_inner_card_head a.thumbnail.inner_2 {
+    cursor: pointer !important;
+    text-decoration: none;
+}
+.glyphicon.glyphicon-align-justify {
+    font-size: 14px;
+}
+.inner_2 {
+    position: relative;
+        border-radius: 6px !important;
+        border: none;
+}
+.card_img {
+   /* background: #edeef3;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;*/
+    margin-left: 10px;
+    float: left;
+}
+/*.card_img img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 2px;
+}*/
+
+ .lear_more_care {
+   font-size: 11px;
+    text-transform: capitalize;
+    border: 2px solid #009039;
+    padding: 3px 12px;
+    margin-top: 10px;
+    display: inline-block;
+    color: #009039;
+    font-weight: 500;
+}
+.inner_2 .caption {
+    margin-top: 20px;
+    min-height: 90px !important;
+    font-size: 13px;
+}
+.tnc p {font-size: 13px;}
+.inner_2 .card_img_header {
+    margin-top: 15px;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #145da8;
+}
+.active_corner_img, .active_corner_img_hover {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*.dashboard_inner_card_head:hover .card_img {
+    background: #b2ebca;
+}*/
+
+
+
+.dashboard_inner_card_head .active_corner_img_hover { 
+display: none;
+ }
+
+.dashboard_inner_card_head:hover .active_corner_img_hover {
+    display: inline-block;
+    margin-left: -12px;
+}
+.dashboard_inner_card_head:hover .active_corner_img{
+ 	display: none;
+}
+.active_corner_img {
+    margin-left: -12px;
+}
+
+
+/*.dashboard_inner_card_head .card_header_img_hover { 
+display: none;
+ }
+
+.dashboard_inner_card_head:hover .card_header_img_hover {
+    display: inline-block;
+}*/
+/*.dashboard_inner_card_head:hover .card_header_img{
+ 	display: none;
+}*/
+
+
+
+/*---this style for notification dot red color---*/
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.red_dot {
+   -webkit-animation: flickerAnimation 1s infinite;
+   -moz-animation: flickerAnimation 1s infinite;
+   -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+}
+
+/*---end of this style for notification dot red color---*/

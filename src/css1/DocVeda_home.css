@@ -1,0 +1,1897 @@
+.region-promo .learn-more,
+.dv-banner-wrap h2 {
+    font-family: "proxima_nova_rgbold";
+}
+
+.dv-banner-wrap h1,
+.dv-user-account a,
+li.zp-main-apps label,
+.featured-apps-wrap > div h6,
+.DocVeda-allapps-section-wrap h6,
+.DocVeda-bundles-section-wrap h6,
+.DocVeda-apps-category ul li,
+li.zp-main-apps a small,
+li.zp-main-apps a,
+.region-promo .promo-appicon,
+.region-promo .learn-more,
+.DocVedalics-inner-content span,
+.dv-banner-wrap p,
+.DocVeda2-one-logo a small,
+.DocVeda2-one-promo-sec .DocVeda2-one-logo a span,
+.DocVeda2-one-promo-sec .DocVeda2-one-logo a,
+.region-promo:before {
+    /*font-family: "proxima_novasemibold";*/
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+li.zp-main-apps label {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a.lm {
+    border-bottom: 1px solid #009039
+}
+
+#block-system-main {
+    margin-top: 0
+}
+
+.for-india,
+.for-uae,
+.ccode-in .for-global,
+.ccode-ae .for-global,
+.ccode-sa .for-global {
+    display: none
+}
+
+.ccode-in .for-india {
+    display: block
+}
+
+.ccode-ae .for-uae,
+.ccode-sa .for-uae {
+    display: block
+}
+
+.dv-header-wrap {
+    padding: 0 10px;
+}
+
+.dv-user-account {
+    text-align: right
+}
+
+    .dv-user-account a {
+        color: #777;
+        font-size: 14px;
+        padding: 10px 10px;
+        display: inline-block
+    }
+
+        .dv-user-account a.dv-access,
+        .dv-user-account a.dv-signup {
+            /*text-transform: uppercase*/
+            color: #f0483e;
+        }
+
+        .dv-user-account a.dv-access {
+            color: #f0483e;
+            display: none;
+        }
+
+.umain .dv-user-account a.dv-access {
+    display: inline-block
+}
+
+.umain .dv-user-account a.dv-signup,
+.umain .dv-user-account a.dv-login {
+    display: none
+}
+
+.featured-section-wrap .content-wrap {
+    max-width: 1170px;
+    padding: 30px 0;
+}
+
+.zp-apps a > span,
+.zp-main-apps a > span {
+    display: block;
+    background: url(../images/Billing_Management/Patient_Registration.svg) left top no-repeat;
+    margin: 0 auto 10px;
+    background-size: auto 100%
+}
+
+.zp-apps a > span {
+    height: 40px;
+    width: 40px;
+}
+
+.zp-main-apps a > span {
+    height: 64px;
+    width: 64px;
+}
+
+.zp-main-books a > span {
+    background-position: 0 0;
+    background: url(../images/Clinical_Profile/Discharge_Summary.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.ccode-in .zp-main-books a > span {
+    background-position: -64px 0
+}
+
+.zp-main-crm a > span {
+    background-position: 0 0
+}
+
+.zp-main-creator a > span {
+    background-position: 0 0;
+    background: url(../images/Material_Management/Pharmacy_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-main-mail a > span {
+    background-position: 0 0;
+    background: url(../images/Financial_Accounting/Payroll_n_HRD_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-main-desk a > span {
+    background-position: 0 0;
+    background: url(../images/Management_Information_Systems/Medical_Data.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-main-recruit a > span {
+    background-position: 0 0;
+    background: url(../images/Service_Management_System/Security_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-main-projects a > span {
+    background-position: -448px 0;
+}
+
+.zp-main-backstage a > span {
+    background-position: -512px 0;
+}
+
+.zp-main-analytics a > span {
+    background-position: -641px 0;
+}
+
+.zp-apps.zp-books a > span {
+    background-position: 0 -64px
+}
+
+.ccode-in .zp-apps.zp-books a > span {
+    background-position: -32px -64px
+}
+
+.zp-apps.zp-crm a > span {
+    background-position: -64px -64px
+}
+
+.zp-apps.zp-pagesense a > span {
+    background-position: -96px -64px
+}
+
+.zp-apps.zp-forms a > span {
+    background-position: 0 0;
+    background: url(../images/Billing_Management/Appointment_n_Scheduling.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-sign a > span {
+    background-position: 0 0;
+    background: url(../images/Billing_Management/Outpatient_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-social a > span {
+    background-position: 0 0;
+    background: url(../images/Billing_Management/Inpatient_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-salesiq a > span {
+    background-position: 0 0;
+    background: url(../images/Billing_Management/Inpatient_Billing.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-survey a > span {
+    background-position: 0 0;
+    background: url(../images/Billing_Management/Consultant_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-salesinbox a > span {
+    background-position: 0 0;
+    background: url(../images/Billing_Management/TPA_Penals.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-campaigns a > span {
+    background-position: 0 0;
+    background: url(../images/Billing_Management/Reception_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-sites a > span {
+    background-position: 0 0;
+    background: url(../images/Billing_Management/Corporate_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-contactmanager a > span {
+    background-position: 0 0;
+    background: url(../images/Billing_Management/Day_Care.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-motivator a > span {
+    background-position: 0 0;
+    background: url(../images/Billing_Management/Emergency_Module.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-inventory a > span {
+    background-position: 0 0;
+    background: url(../images/Clinical_Profile/Laboratory_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-invoice a > span {
+    background-position: 0 0;
+    background: url(../images/Clinical_Profile/Radiology_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-subscriptions a > span {
+    background-position: 0 0;
+    background: url(../images/Clinical_Profile/MRD_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-expense a > span {
+    background-position: 0 0;
+    background: url(../images/Clinical_Profile/ICD_10_Module.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-checkout a > span {
+    background-position: 0 0;
+    background: url(../images/Clinical_Profile/Physiotherapy.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-new2 a > span {
+    background-position: 0 0;
+    background: url(../images/Clinical_Profile/Phlebotomy.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-new3 a > span {
+    background-position: 0 0;
+    background: url(../images/Clinical_Profile/Nursing_Station.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-new4 a > span {
+    background-position: 0 0;
+    background: url(../images/Clinical_Profile/OT_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-new5 a > span {
+    background-position: 0 0;
+    background: url(../images/Clinical_Profile/Dialysis.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-gstfiling a > span {
+    background-position: -608px -64px;
+}
+
+.zp-apps.zp-mail a > span {
+    background-position: -640px -64px;
+}
+
+.zp-apps.zp-cliq a > span {
+    background-position: 0 0;
+    background: url(../images/Financial_Accounting/Account_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-docs a > span {
+    background-position: 0 0;
+    background: url(../images/Financial_Accounting/Books.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-writer a > span {
+    background-position: 0 0;
+    background: url(../images/Financial_Accounting/Expenses.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-sheet a > span {
+    background-position: 0 0;
+    background: url(../images/Financial_Accounting/Invoice.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-show a > span {
+    background-position: -800px -64px;
+}
+
+.zp-apps.zp-projects a > span {
+    background-position: -832px -64px;
+}
+
+.zp-apps.zp-sprints a > span {
+    background-position: -864px -64px;
+}
+
+.zp-apps.zp-bugtracker a > span {
+    background-position: -896px -64px;
+}
+
+.zp-apps.zp-connect a > span {
+    background-position: -928px -64px;
+}
+
+.zp-apps.zp-meeting a > span {
+    background-position: 0 -96px
+}
+
+.zp-apps.zp-vault a > span {
+    background-position: -32px -96px;
+}
+
+.zp-apps.zp-showtime a > span {
+    background-position: -64px -96px
+}
+
+.zp-apps.zp-notebook a > span {
+    background-position: -96px -96px
+}
+
+.zp-apps.zp-wiki a > span {
+    background-position: -128px -96px;
+}
+
+.zp-apps.zp-desk a > span {
+    background-position: -160px -96px;
+}
+
+.zp-apps.zp-patchmanagerplus a > span {
+    background-position: -576px -96px;
+}
+
+.zp-apps.zp-assist a > span {
+    background-position: 0 0;
+    background: url(../images/Management_Information_Systems/MIS_Reports.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-servicedeskplus a > span {
+    background-position: 0 0;
+    background: url(../images/Management_Information_Systems/Patient_Feed_Back_Module.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-mobiledevicemanagement a > span {
+    background-position: 0 0;
+    background: url(../images/Management_Information_Systems/Report_Builder.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-site24x7 a > span {
+    background-position: -288px -96px;
+}
+
+.zp-apps.zp-recruit a > span {
+    background-position: -320px -96px;
+}
+
+.zp-apps.zp-people a > span {
+    background-position: 0 0;
+    background: url(../images/Service_Management_System/Service_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+
+.zp-apps.zp-new6 a > span {
+    background-position: 0 0;
+    background: url(../images/Service_Management_System/SMS_Gate_Way.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-new7 a > span {
+    background-position: 0 0;
+    background: url(../images/Service_Management_System/Email_Gateway.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-new8 a > span {
+    background-position: 0 0;
+    background: url(../images/Service_Management_System/CSSD.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-new9 a > span {
+    background-position: 0 0;
+    background: url(../images/Service_Management_System/Equipment_Maintenance.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-new10 a > span {
+    background-position: 0 0;
+    background: url(../images/Service_Management_System/Diet_n_Canteen_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-creator a > span {
+    background-position: -384px -96px;
+}
+
+.zp-apps.zp-flow a > span {
+    background-position: 0 0;
+    background: url(../images/Material_Management/Retail_Pharmacy.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-analytics a > span {
+    background-position: 0 0;
+    background: url(../images/Material_Management/Store_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.zp-apps.zp-commerce a > span {
+    background-position: -481px -96px;
+}
+
+.zp-apps.zp-marketinghub a > span {
+    background-position: -736px -96px;
+}
+
+.zp-apps.zp-backstage a > span {
+    background-position: -512px -96px;
+}
+
+.zp-apps.zp-flow {
+    /*border-bottom: 1px solid #fff;*/
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.zp-apps.zp-officeintegrator a > span {
+    background-position: 0 0;
+    background: url(../images/Material_Management/Purchase_Management.svg) left top no-repeat;
+    background-size: auto 100%;
+}
+
+.dv-banner-wrap {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+    .dv-banner-wrap h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+        .dv-banner-wrap h1 img {
+            max-width: 150px;
+        }
+
+    .dv-banner-wrap p {
+        font-size: 19px;
+        max-width: 850px;
+        margin: 0 auto 20px;
+        color: #777;
+    }
+
+    .dv-banner-wrap h1 a {
+        color: #000;
+        position: relative;
+        padding: 0px 0 0 140px;
+    }
+
+        .dv-banner-wrap h1 a:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 132px;
+            height: 50px;
+            background: url(/sites/default/files/zh-sprite-2x.png) left top no-repeat;
+            background-size: auto 120px;
+            background-position: -480px 0;
+        }
+
+    .dv-banner-wrap .content-wrap {
+        padding: 40px 0;
+    }
+
+        .dv-banner-wrap .content-wrap .act-btn {
+            background: #f0483e;
+            color: #fff;
+            font-size: 16px;
+            margin: 5px 0 0;
+        }
+
+.featured-apps-wrap {
+    display: table;
+    width: 100%
+}
+
+    .featured-apps-wrap > div {
+        display: table-cell;
+        vertical-align: top;
+        position: relative;
+        padding: 20px 0;
+    }
+
+        .featured-apps-wrap > div h6,
+        .DocVeda-bundles-section-wrap h6,
+        .DocVeda-allapps-section-wrap h6 {
+            position: absolute;
+            left: 0;
+            top: -30px;
+            width: 100%;
+            height: 20px;
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #999;
+        }
+
+.DocVeda-bundles-section-wrap h6 {
+    top: 50px
+}
+
+.DocVeda-allapps-section-wrap h6 {
+    top: 50px;
+    color: #777;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.main-apps-count-1 {
+    width: 20%
+}
+
+.main-apps-count-2 {
+    width: 40%
+}
+
+.main-apps-count-4 {
+    width: 80%
+}
+
+.main-apps-count-3 {
+    width: 60%
+}
+
+.featured-apps-wrap ul {
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+li.zp-main-apps {
+    vertical-align: top;
+    min-height: 143px;
+}
+
+    li.zp-main-apps:last-child {
+        border-right: none
+    }
+
+.just-launched-apps li.zp-main-apps:last-child {
+    border-right: 1px solid #ccc;
+}
+
+li.zp-main-apps a {
+    font-size: 16px;
+    color: #145da8;
+    position: relative;
+    display: inline-block;
+}
+
+    li.zp-main-apps a small {
+        position: absolute;
+        top: -20px;
+        left: 0;
+        width: 100%;
+        height: 20px;
+        padding: 2px 5px;
+        color: #e6851d;
+        font-size: 12px;
+        display: inline-block;
+        text-align: center;
+    }
+
+li.zp-main-apps label {
+    display: block;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+
+li.zp-main-apps a em {
+    font-size: 11px;
+    text-transform: capitalize;
+    border: 2px solid #009039;
+    padding: 3px 12px;
+    margin-top: 15px;
+    display: inline-block;
+    color: #009039;
+}
+
+li.zp-main-apps a strong {
+    background: #fef07d;
+    color: #c46b0c;
+    text-transform: uppercase;
+    font-size: 10px;
+    display: inline-block;
+    padding: 2px 5px;
+    position: absolute;
+    left: -30px;
+    top: -30px;
+}
+
+.for-uae .content-wrap {
+    padding: 70px 0;
+}
+
+.region-promo {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    position: relative;
+    background: -moz-linear-gradient(left, rgba(240, 245, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(240, 245, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(240, 245, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#00ffffff', GradientType=1);
+}
+
+    .region-promo:before {
+        content: 'Featured Apps';
+        position: absolute;
+        left: 0;
+        top: -60px;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #999;
+    }
+
+    .region-promo ul {
+        position: relative;
+        width: 55%;
+        overflow: hidden;
+    }
+
+        .region-promo ul:after,
+        .region-promo ul:before {
+            content: '';
+            position: absolute;
+            background: #f2f2f2;
+        }
+
+        .region-promo ul:after {
+            height: 100%;
+            width: 1px;
+            left: 49%;
+            top: 0;
+        }
+
+    /*.region-promo ul:before {
+    width: 100%;
+    height: 1px;
+    top:49%;
+    left: 0;
+}*/
+
+    .region-promo > * {
+        display: table-cell;
+        vertical-align: top;
+        width: 50%;
+        padding: 0;
+    }
+
+    .region-promo .promotion-app {
+        border-right: 1px solid #f3f3f3;
+        background: -moz-linear-gradient(left, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+        background: -webkit-linear-gradient(left, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(to right, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0.23) 77%, rgba(255, 255, 255, 0) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#00ffffff', GradientType=1);
+        vertical-align: top;
+        width: 45%;
+    }
+
+        .region-promo .promotion-app a {
+            color: #000;
+            display: block;
+            padding: 60px 40px 60px 120px;
+            position: relative;
+        }
+
+    .region-promo .promo-appicon {
+        height: 96px;
+        width: 96px;
+        left: 30px;
+        position: absolute;
+        top: 60px;
+        background: url(../images/logo_icon_1.png) no-repeat 0 0/auto 50px;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+        .region-promo .promo-appicon.promo-books {
+            background-position: 0 0;
+        }
+
+        .region-promo .promo-appicon.promo-crm {
+            background-position: 0 0;
+        }
+
+    .region-promo .promotion-app h3 {
+        font-size: 23px;
+        margin-bottom: 25px;
+        color: #145da8;
+        margin-top: 10px;
+    }
+
+    .region-promo .promotion-app p {
+        /*font-size: 16px;*/
+        font-size: 12px;
+        line-height: 18px;
+        text-align: justify;
+    }
+
+    .region-promo .learn-more {
+        color: #fff;
+        background: #009039;
+        padding: 5px 15px;
+        display: inline-block;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        font-size: 12px;
+        float: right;
+    }
+
+    .region-promo ul li {
+        text-align: left;
+        width: 49%;
+        display: inline-block;
+        padding: 20px;
+    }
+
+    .region-promo ul a {
+        padding: 0 0 0 80px;
+    }
+
+    .region-promo ul li span {
+        position: absolute;
+        left: 0;
+    }
+
+
+/* DocVeda One Promo section CSS */
+
+.DocVeda2-one-promo-sec .content-wrap {
+    border: 1px solid #f2f2f2;
+    padding: 60px 100px;
+    max-width: 1170px;
+    margin: 60px auto 30px;
+}
+
+.other-lang .DocVeda2-one-promo-sec .content-wrap {
+    margin: 20px auto 80px;
+}
+
+.DocVeda2-one-promo-sec .content-wrap > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.DocVeda2-one-promo-sec .DocVeda2-one-logo {
+    width: 25%;
+}
+
+.DocVeda2-one-promo-sec .DocVeda2-one-cont {
+    width: 48%;
+    padding-left: 100px;
+}
+
+.DocVeda2-one-promo-sec .DocVeda2-one-logo a span {
+    font-size: 30px;
+    padding-left: 110px;
+    position: relative;
+    height: 52px;
+    display: inline-block;
+    line-height: 56px;
+    color: #333;
+}
+
+    .DocVeda2-one-promo-sec .DocVeda2-one-logo a span:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 7px;
+        width: 110px;
+        height: 40px;
+        background: url(../images/nabh.png) left top no-repeat;
+        background-size: 100px auto;
+    }
+
+.DocVeda2-one-promo-sec .DocVeda2-one-logo a small {
+    font-size: 16px;
+    margin-top: 5px;
+    display: block;
+    color: #000;
+}
+
+.DocVeda2-one-cont .learn-more {
+    font-size: 12px;
+    border-bottom: 1px solid #009039;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.DocVeda-bundles-section-wrap {
+    position: relative;
+    background: #fafafa
+}
+
+    .DocVeda-bundles-section-wrap .content-wrap {
+        max-width: 1170px;
+        padding-top: 100px
+    }
+
+        .DocVeda-bundles-section-wrap .content-wrap > div {
+            float: left;
+            padding: 0 60px 40px 140px;
+            width: 33.3333%;
+        }
+
+        .DocVeda-bundles-section-wrap .content-wrap > div {
+            width: 25%;
+            padding: 110px 40px 40px;
+        }
+
+.zp-bundle {
+    position: relative
+}
+
+    .zp-bundle:before {
+        content: '';
+        position: absolute;
+        left: 40px;
+        top: 0;
+        width: 96px;
+        height: 96px;
+        background: url(../images/emr.png) left top no-repeat;
+        background-size: auto 82px;
+    }
+
+.bundle-crmplus:before {
+    background: url(../images/clinical_billing.png) left top no-repeat;
+    background-position: 0 0
+}
+
+.bundle-workplace:before {
+    background: url(../images/clinical_reporting.png) left top no-repeat;
+    background-position: 0 0;
+}
+
+.bundle-financeplus:before {
+    background: url(../images/pharmacy.png) left top no-repeat;
+    background-position: 0 0;
+}
+
+.bundle-itmanagement:before {
+    background: url(../images/inventory_purchase.png) left top no-repeat;
+    background-position: 0 0;
+}
+
+.zp-bundle > h4 {
+    margin: 0 0 5px
+}
+
+    .zp-bundle > h4 a {
+        color: #145da8;
+    }
+
+.zp-bundle > p {
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 0 0 5px;
+    min-height: 60px;
+    font-weight: 500;
+}
+
+.zp-bundle .lm {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.DocVeda-allapps-section-wrap {
+    position: relative
+}
+
+    .DocVeda-allapps-section-wrap .content-wrap {
+        padding-top: 120px
+    }
+
+.DocVeda-apps-category {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding: 30px 20px 40px;
+    border-right: 1px solid #e5e5e5;
+    position: relative;
+}
+
+    .DocVeda-apps-category:nth-last-child(-n+3) {
+        border-top: 1px solid #f5f5f5;
+    }
+
+    .DocVeda-apps-category:nth-child(3n+1) {
+        padding-left: 0
+    }
+
+    .DocVeda-apps-category:nth-child(3n) {
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .DocVeda-apps-category > h4 {
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .DocVeda-apps-category > p {
+        max-width: 90%;
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 0 auto 10px;
+        text-align: center;
+        color: #333;
+        min-height: 75px;
+    }
+
+    .DocVeda-apps-category ul {
+        margin: 30px 0 0;
+    }
+
+        .DocVeda-apps-category ul li {
+            position: relative;
+            display: inline-block;
+            padding: 30px 10px 10px;
+            width: 32%;
+            font-size: 11px;
+            text-align: center;
+            text-transform: capitalize;
+            border-bottom: 1px solid #f5f5f5;
+            border-right: 1px solid #f5f5f5;
+            vertical-align: bottom;
+            transition: 0.5s ease;
+        }
+
+            .DocVeda-apps-category ul li:first-child {
+                width: 32%;
+                font-size: 11px;
+                padding: 30px 10px 10px;
+            }
+
+            .DocVeda-apps-category ul li:nth-child(3),
+            .DocVeda-apps-category ul li:nth-child(6),
+            .DocVeda-apps-category ul li:nth-child(9),
+            .DocVeda-apps-category ul li:nth-child(12),
+            .DocVeda-apps-category ul li:nth-child(15) {
+                border-right: none
+            }
+
+            .DocVeda-apps-category ul li.zp-apps:first-child a > span {
+                width: 40px;
+                height: 40px;
+                margin: 0 auto 8px;
+            }
+
+            .DocVeda-apps-category ul li:nth-child(2) {
+                border-top: none
+            }
+
+
+            .DocVeda-apps-category ul li a {
+                color: #333;
+            }
+
+                .DocVeda-apps-category ul li a small {
+                    font-family: inherit;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    padding: 2px 5px;
+                    background: #fef07d none repeat scroll 0 0;
+                    color: #c46b0c;
+                    font-size: 10px;
+                }
+
+            .DocVeda-apps-category ul li label {
+                min-height: 40px;
+                display: inline-block;
+                cursor: pointer
+            }
+
+.sales-marketing ul li:last-child,
+.email-collaboration ul li:last-child,
+.finance ul li:last-child,
+.custom-solutions ul li:last-child {
+    border-bottom: 1px solid #fff;
+}
+
+.DocVeda-apps-category.sales-marketing ul li:hover {
+    border-bottom: 1px solid #145da1
+}
+
+.DocVeda-apps-category.finance ul li:hover {
+    border-bottom: 1px solid #145da1
+}
+
+.DocVeda-apps-category.email-collaboration ul li:hover {
+    border-bottom: 1px solid #145da1
+}
+
+.DocVeda-apps-category.it-help-desk ul li:hover {
+    border-bottom: 1px solid #145da1
+}
+
+.DocVeda-apps-category.human-resources ul li:hover {
+    border-bottom: 1px solid #145da1
+}
+
+.DocVeda-apps-category.custom-solutions ul li:hover {
+    border-bottom: 1px solid #145da1
+}
+
+
+.dv-bottom-promo-section .content-wrap {
+    max-width: 1170px;
+    padding: 80px 0;
+}
+
+    .dv-bottom-promo-section .content-wrap > div {
+        display: inline-block;
+        width: 25%;
+        vertical-align: top;
+        float: left;
+        padding: 0 30px 0;
+    }
+
+        .dv-bottom-promo-section .content-wrap > div h5 a {
+            color: #000
+        }
+
+        .dv-bottom-promo-section .content-wrap > div p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+            /* min-height:80px; */
+        }
+
+        .dv-bottom-promo-section .content-wrap > div .lm {
+            font-size: 16px
+        }
+
+        .dv-bottom-promo-section .content-wrap > div:nth-child(3) h5 a,
+        .dv-bottom-promo-section .content-wrap > div:last-child h5 a {
+            padding: 0 0 0 40px;
+            display: inline-block;
+            position: relative
+        }
+
+            .dv-bottom-promo-section .content-wrap > div:nth-child(3) h5 a:before,
+            .dv-bottom-promo-section .content-wrap > div:last-child h5 a:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 32px;
+                height: 32px;
+                background: url(/sites/default/files/zh-sprite-2x.png) left top no-repeat;
+                background-size: auto 120px
+            }
+
+            .dv-bottom-promo-section .content-wrap > div:nth-child(3) h5 a:before {
+                background-position: -480px -50px;
+            }
+
+            .dv-bottom-promo-section .content-wrap > div:last-child h5 a:before {
+                background-position: -512px -50px;
+            }
+
+.common-links {
+    margin-top: 0px;
+    padding: 15px 0 30px 0;
+}
+
+.footer-wrapper {
+    background: #333;
+}
+
+    .footer-wrapper ul.zdomainlink {
+        display: inline;
+    }
+
+.common-links .zlang-text {
+    color: #ccc;
+}
+
+.zlang-container .zlang-text::after {
+    background-position: -258px 0;
+}
+
+.common-links .zlang-container-inner ul li a:hover {
+    color: #03a9f5;
+}
+
+.footer-sec-wrap {
+    display: inline-block;
+    width: 100%;
+}
+
+    .footer-sec-wrap .product-links h4,
+    .footer-sec-wrap .product-links ul li a,
+    .common-links ul li a,
+    .common-links p {
+        color: #fff
+    }
+
+    .footer-sec-wrap .product-links h4 {
+        font-size: 18px;
+    }
+
+.common-links:before {
+    background: #666
+}
+
+.footer-sec-wrap .product-links > div.footer-contact {
+    display: none
+}
+
+.ccode-in .footer-sec-wrap .product-links > div.footer-contact {
+    display: block
+}
+
+.footer-sec-wrap .product-links > div.footer-contact li {
+    margin-left: 10px
+}
+
+    .footer-sec-wrap .product-links > div.footer-contact li:first-child {
+        margin-left: 0
+    }
+
+        .footer-sec-wrap .product-links > div.footer-contact li:first-child a {
+            font-weight: bold
+        }
+
+.footer-links-wrap span.zlang-text {
+    color: #ccc;
+}
+
+.footer-links-wrap .zlang-container .zlang-text::after {
+    background-position: -258px 0;
+}
+
+.common-links .zlang-container-inner ul li {
+    border: none
+}
+
+    .common-links .zlang-container-inner ul li a {
+        color: #000
+    }
+
+.footer-sec-wrap .product-links ul li a sup {
+    margin: 0 0 0 5px;
+    font-size: 10px;
+    color: #ffc62b;
+    text-transform: uppercase;
+    vertical-align: super;
+}
+
+.DocVeda2-one-promo-sec .content-wrap {
+    padding: 30px;
+}
+
+.DocVeda2-one-promo-sec .DocVeda2-one-logo {
+    width: 6%;
+}
+
+.DocVeda2-one-promo-sec .DocVeda2-one-cont p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.DocVeda2-one-promo-sec .DocVeda2-one-logo a span {
+    font-size: 30px;
+    padding-left: 110px;
+}
+
+    .DocVeda2-one-promo-sec .DocVeda2-one-logo a span:after {
+        background-size: auto 85%;
+        width: 110px;
+        height: 110px;
+        top: 0;
+    }
+
+@media only screen and (min-width:768px) and (max-width:1199px) {
+    .DocVeda-apps-category {
+        width: 50%;
+        float: left;
+    }
+
+        .DocVeda-apps-category:nth-child(3n) {
+            padding-right: 20px;
+            border-right: 1px solid #e5e5e5;
+        }
+
+        .DocVeda-apps-category:nth-child(2n) {
+            padding-right: 0;
+            border-right: none;
+        }
+
+        .DocVeda-apps-category:nth-last-child(-n+3) {
+            border-top: 1px solid #f5f5f5;
+        }
+
+        .DocVeda-apps-category:nth-last-child(-n+4) {
+            border-top: 1px solid #f5f5f5;
+        }
+
+        .DocVeda-apps-category:last-child:before {
+            content: '';
+            position: absolute;
+            left: -1px;
+            top: 0;
+            height: 100%;
+            width: 1px;
+            background: #e5e5e5;
+        }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .DocVeda-bundles-section-wrap .content-wrap > div {
+        padding: 110px 30px 40px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .dv-bottom-promo-section .content-wrap > div {
+        width: 50%;
+        padding: 0 30px 30px;
+    }
+
+    .dv-bottom-promo-section .content-wrap {
+        padding: 80px 0 60px
+    }
+
+    .zp-main-apps a > span,
+    .zp-apps a > span {
+        transform: scale(0.8)
+    }
+
+    .region-promo .promotion-app h3 {
+        font-size: 24px;
+    }
+
+    li.zp-main-apps label,
+    .DocVeda-apps-category ul li {
+        font-size: 10px
+    }
+
+    .DocVeda-bundles-section-wrap .content-wrap > div {
+        width: 50%;
+        padding: 60px 20px 40px 160px;
+        border-bottom: 1px solid #f2f2f2;
+        border-right: 1px solid #f2f2f2;
+    }
+
+    .zp-bundle:before {
+        top: 50px;
+    }
+
+    .DocVeda-bundles-section-wrap .content-wrap > div:nth-child(2n+2) {
+        border-right: none;
+    }
+
+    .DocVeda-bundles-section-wrap .content-wrap > div:nth-child(n+3) {
+        border-bottom: none;
+    }
+
+    .region-promo .promotion-app a {
+        padding: 30px 20px 30px 150px;
+    }
+
+    .region-promo .promo-appicon {
+        left: 20px;
+        top: 25px;
+    }
+
+    .DocVeda2-one-promo-sec .DocVeda2-one-logo,
+    .DocVeda2-one-promo-sec .DocVeda2-one-cont {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .DocVeda2-one-promo-sec .content-wrap > div {
+        display: block;
+    }
+
+    .DocVeda2-one-promo-sec .DocVeda2-one-logo {
+        margin-bottom: 10px;
+    }
+
+    .DocVeda2-one-promo-sec .content-wrap {
+        max-width: 640px;
+        margin: 60px auto 10px;
+        padding: 50px;
+    }
+
+    div .dv-user-account a {
+        padding: 5px 10px 5px;
+        font-size: 14px;
+    }
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .region-promo {
+        display: block;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+        .region-promo .promotion-app,
+        .region-promo ul {
+            width: 100%;
+            display: block;
+            padding: 20px;
+        }
+
+            .region-promo ul label {
+                font-size: 14px;
+            }
+
+    /*.DocVedalics-outer-wrap:after {
+        content: none;
+    }
+    .DocVedalics-outer-wrap {
+        max-width: 600px;
+    }
+    .DocVedalics-inner-wrap {
+        width: 100%
+    }*/
+}
+
+@media only screen and (max-width:767px) {
+
+    /*.it-help-desk ul li:nth-last-child(2),
+    .it-help-desk ul li:nth-last-child(3) {
+        border-bottom: 1px solid #f5f5f5 !important;
+    }
+    .DocVeda-apps-category ul li.zp-new4 {
+        border-right: 1px solid #fafafa !important;
+    }
+    .i18n-en .custom-solutions .zp-apps.zp-flow {
+        border-right-color: #f5f5f5;
+        border-bottom-color: #f5f5f5 !important;
+    }*/
+    .zcustomer-section-part .banner-testimonial-wrap {
+        width: 50% !important;
+        float: left;
+        margin: 0 25%;
+    }
+
+    .featured-section-wrap li.zp-main-apps a em {
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .dv-banner-wrap p {
+        font-size: 16px;
+    }
+
+    .DocVeda-allapps-section-wrap .content-wrap {
+        width: 100%;
+    }
+
+    .region-promo .promotion-app h3 {
+        font-size: 20px;
+    }
+
+    .DocVeda-apps-category {
+        width: 100%;
+        padding: 60px 5%;
+        margin: 0 auto;
+        float: none;
+        display: block;
+        border-right: none;
+    }
+
+        .DocVeda-apps-category:first-child {
+            padding-top: 0;
+        }
+
+        .DocVeda-apps-category > p {
+            min-height: initial;
+            max-width: 420px;
+        }
+
+        .DocVeda-apps-category ul {
+            max-width: 480px;
+            margin: 30px auto 0;
+            width: 100%;
+        }
+
+        .DocVeda-apps-category:nth-child(even) {
+            /*background: #fafafa;*/
+            background: #ffffff;
+        }
+
+        .DocVeda-apps-category:nth-child(3n+1) {
+            padding-left: 5%;
+        }
+
+        .DocVeda-apps-category:nth-child(3n) {
+            padding-right: 5%;
+        }
+
+        .DocVeda-apps-category:nth-last-child(-n+3) {
+            border-top: none;
+        }
+
+        .DocVeda-apps-category.sales-marketing ul li.zp-pagesense {
+            border-bottom: 1px solid #fafafa;
+        }
+
+        .DocVeda-apps-category.finance ul li.zp-expense {
+            border-bottom: 1px solid #f5f5f5;
+        }
+
+    .other-lang .dv-user-account a {
+        font-size: 12px;
+        padding: 10px 6px;
+    }
+
+    .other-lang .footer-links-wrap div ul.zdomainlink {
+        display: inline;
+    }
+
+    .zp-apps.zp-flow {
+        border-color: #fafafa;
+    }
+
+    .i18n-en .custom-solutions .zp-apps.zp-flow {
+        border-right-color: #f5f5f5;
+        border-bottom-color: transparent;
+    }
+
+    .i18n-en .custom-solutions ul li.zp-apps.zp-flow {
+        /*border-bottom: 1px solid #f5f5f5;*/
+        border-bottom-color: #f5f5f5;
+    }
+
+    .other-lang .custom-solutions .zp-apps.zp-flow {
+        border-right-color: #f5f5f5;
+    }
+    /*.DocVedalics-section-wrap .content-wrap {
+        padding: 20px 0 0;
+    }*/
+    .dv-bottom-promo-section .content-wrap > div {
+        width: 90%;
+        padding: 0 0 40px;
+        max-width: 460px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .dv-bottom-promo-section .content-wrap {
+        padding: 80px 0 60px
+    }
+
+    .zp-main-apps a > span {
+        transform: scale(0.8)
+    }
+
+    .DocVeda-bundles-section-wrap .content-wrap > div {
+        float: none;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        padding: 60px 0 40px 160px;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .zp-bundle:before {
+        top: 50px;
+    }
+
+    .DocVeda-bundles-section-wrap .content-wrap > div:first-child {
+        padding-top: 30px
+    }
+
+    .DocVeda-bundles-section-wrap .content-wrap > .zp-bundle:first-child:before {
+        top: 20px;
+    }
+
+    .DocVeda-bundles-section-wrap .content-wrap > div:last-child {
+        border-bottom: none;
+    }
+
+    .featured-section-wrap .content-wrap {
+        padding: 80px 0 40px;
+    }
+
+    li.zp-main-apps label,
+    .region-promo ul:after,
+    .region-promo ul:before {
+        display: none;
+    }
+
+    li.zp-main-apps {
+        border-right: none;
+    }
+
+        li.zp-main-apps a {
+            font-size: 16px;
+        }
+
+            li.zp-main-apps a em {
+                font-size: 10px;
+                border: none;
+                border-bottom: 1px solid #03a9f5;
+                padding: 0;
+                display: block;
+            }
+
+            li.zp-main-apps a strong {
+                font-size: 8px;
+                padding: 3px;
+                left: 50%;
+                top: -15px;
+                margin-left: -15px;
+            }
+
+    .sales-marketing ul li:last-child,
+    .email-collaboration ul li:last-child,
+    .custom-solutions ul li:last-child,
+    .finance ul li:nth-last-child(-n+2),
+    .it-help-desk ul li:nth-last-child(-n+3) {
+        border-bottom: 1px solid #f5f5f5;
+    }
+
+    .custom-solutions ul li.zp-apps.zp-orchestly,
+    .custom-solutions ul li.zp-apps.zp-officeintegrator,
+    .finance ul li.zp-apps.zp-new5 {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .region-promo .promotion-app a {
+        padding: 150px 20px 30px;
+        text-align: center;
+    }
+
+    .region-promo {
+        max-width: 450px;
+    }
+
+        .region-promo .promo-appicon {
+            top: 0;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+        }
+
+        .region-promo ul li {
+            width: 32%;
+            padding: 0;
+            text-align: center;
+        }
+
+        .region-promo ul a {
+            padding: 0;
+        }
+
+        .region-promo ul li span {
+            position: static;
+        }
+
+    .DocVeda2-one-promo-sec .DocVeda2-one-logo,
+    .DocVeda2-one-promo-sec .DocVeda2-one-cont {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .DocVeda2-one-promo-sec .content-wrap > div {
+        display: block;
+    }
+
+    .DocVeda2-one-promo-sec .DocVeda2-one-logo {
+        margin-bottom: 25px;
+    }
+
+    .DocVeda2-one-promo-sec .content-wrap {
+        max-width: 450px;
+        margin: 60px auto 10px;
+        padding: 40px;
+    }
+    /* .DocVedalics-inner-wrap {
+        text-align: center;
+        padding: 50px 30px;
+    }
+    .DocVedalics-inner-wrap>div {
+        width: 100%;
+        display: block;
+    }
+    .DocVedalics-outer-wrap {
+        max-width: 400px;
+    }
+    .DocVedalics-inner-banner {
+        padding: 0 20px 15px;
+    }*/
+}
+
+@media only screen and (max-width:480px) {
+    .zcustomer-section-part .banner-testimonial-wrap {
+        width: 50% !important;
+        margin: 0 25%;
+    }
+
+    .featured-section-wrap li.zp-main-apps a em {
+        width: 70px;
+        margin: 0 auto;
+    }
+
+    .dv-user-account a.dv-customers {
+        display: none;
+    }
+
+    .dv-banner-wrap h1 {
+        transform: scale(0.8);
+        margin-bottom: 0;
+    }
+
+    .DocVeda-bundles-section-wrap .content-wrap {
+        padding-top: 70px;
+    }
+
+    .region-promo ul {
+        max-width: 300px;
+        margin: 10px auto 10px;
+        overflow: hidden;
+    }
+
+        .region-promo ul li {
+            width: 48%;
+            max-width: 200px;
+        }
+
+            .region-promo ul li:first-child,
+            .region-promo ul li:nth-child(2) {
+                margin-bottom: 20px;
+            }
+
+    .zp-bundle:before {
+        left: 50%;
+        top: 30px;
+        margin-left: -40px;
+    }
+
+    .DocVeda-bundles-section-wrap .content-wrap > .zp-bundle:first-child:before {
+        top: 30px;
+    }
+
+    .zp-bundle:before {
+        width: 80px;
+        height: 80px;
+        background-size: auto 70px;
+    }
+
+    .bundle-workplace:before {
+        background-position: 0 0;
+    }
+
+    .bundle-financeplus:before {
+        background-position: 0 0;
+    }
+
+    .bundle-itmanagement:before {
+        background-position: 0 0;
+    }
+
+    .DocVeda-bundles-section-wrap .content-wrap > div {
+        padding: 120px 30px 40px;
+        background: #fff;
+        margin: 40px auto;
+        text-align: center;
+    }
+
+        .DocVeda-bundles-section-wrap .content-wrap > div:first-child {
+            padding-top: 120px;
+        }
+
+    .DocVeda-apps-category > h4,
+    .DocVeda-apps-category > p {
+        padding: 0 15px;
+    }
+
+    .DocVeda-apps-category:nth-child(3n+1) {
+        padding-left: 0;
+    }
+
+    .DocVeda-apps-category {
+        padding: 60px 0;
+        display: inline-block;
+    }
+
+        .DocVeda-apps-category ul {
+            max-width: 100%;
+        }
+
+            .DocVeda-apps-category ul li:first-child {
+                width: 50%;
+            }
+
+            .DocVeda-apps-category ul li {
+                width: 50% !important;
+                float: left;
+            }
+
+            .DocVeda-apps-category ul li {
+                padding: 30px 5px 10px;
+            }
+
+    .zp-main-apps a > span,
+    .zp-apps a > span {
+        transform: scale(0.7);
+        margin-bottom: 0;
+        margin: 0 auto 8px;
+    }
+
+    .DocVeda-apps-category ul .zp-contactmanager {
+        padding: 30px 0 10px;
+    }
+
+    .DocVeda-apps-category ul li label {
+        margin-top: 3px;
+    }
+
+    li.zp-main-apps label {
+        font-size: 10px
+    }
+
+    .DocVeda-apps-category ul li {
+        font-size: 11px;
+    }
+
+        .DocVeda-apps-category ul li.zp-apps.zp-sign,
+        .DocVeda-apps-category ul li.zp-apps.zp-sites {
+            border-right: 1px solid #f5f5f5;
+        }
+
+        .DocVeda-apps-category ul li.zp-apps.zp-contactmanager {
+            border-bottom-color: #f5f5f5;
+        }
+
+        .DocVeda-apps-category ul li.zp-apps.zp-invoice,
+        .DocVeda-apps-category ul li.zp-apps.zp-new4 {
+            border-right: 1px solid #f5f5f5;
+        }
+        .DocVeda-apps-category ul li.zp-apps.zp-new4 {
+            border-bottom-color: #ffffff;
+        }
+
+        .DocVeda-apps-category ul li.zp-apps.zp-workdrive {
+            border-right: 1px solid #f5f5f5;
+        }
+        .DocVeda-apps-category ul li.zp-apps.zp-docs {
+            border-bottom-color: #f5f5f5;
+            border-right-color: #ffffff;
+        }
+        .DocVeda-apps-category ul li.zp-apps.zp-cliq {
+            border-right-color: #ffffff;
+        }
+        .DocVeda-apps-category ul li.zp-apps.zp-servicedeskplus {
+            border-right: 1px solid #f5f5f5;
+            border-bottom-color: #ffffff;
+        }
+
+        .DocVeda-apps-category ul li.zp-apps.zp-workerly {
+            border-right: 1px solid #f5f5f5;
+        }
+    .i18n-en .custom-solutions ul li.zp-apps.zp-flow {
+        border-right: 1px solid #f5f5f5;
+    }
+    .custom-solutions ul li.zp-apps.zp-officeintegrator {
+        border-bottom-color: #f5f5f5;
+    }
+    .DocVeda-apps-category:nth-child(3n) {
+        padding-right: 0%;
+    }
+
+            .featured-apps-wrap > div {
+                display: block;
+                width: 100%;
+                margin: 0 0 60px;
+                text-align: center;
+            }
+
+    .just-launched-apps li.zp-main-apps:last-child {
+        border-right: none;
+    }
+
+    li.zp-main-apps {
+        max-width: 100px;
+        display: inline-block;
+    }
+
+    .featured-apps-wrap > div:last-child {
+        margin: 0;
+    }
+
+    .footer-sec-wrap .product-links h4 {
+        background: transparent;
+        border-bottom: 1px solid transparent;
+    }
+
+        .footer-sec-wrap .product-links h4:after {
+            border: solid #999;
+            border-width: 0 1px 1px 0
+        }
+
+    .DocVeda2-one-promo-sec .DocVeda2-one-logo a span {
+        font-size: 32px;
+        padding-left: 110px;
+        height: 46px;
+        line-height: 50px;
+    }
+
+    .DocVeda2-one-promo-sec .content-wrap {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .DocVeda2-one-promo-sec .DocVeda2-one-logo a span:after {
+        width: 110px;
+        height: 125px;
+        background-size: 100px auto;
+        top: 3px;
+    }
+
+    .DocVeda2-one-promo-sec .DocVeda2-one-logo a small {
+        font-size: 13px;
+    }
+}
+
+.other-lang .zcustomer-section-part {
+    display: none;
+}
+
+
+

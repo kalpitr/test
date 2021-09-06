@@ -1,0 +1,95 @@
+.SecHeadOutr {
+    width: 100%;
+    height: auto;
+    float: left;
+    border: 1px solid #cccccc;
+}
+.SecH4 {
+    width: 100%;
+    height: auto;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-bottom: 1px solid #cccccc;
+    margin: 0 0 10px 0;
+    background-color: rgba(20, 93, 161, 0.2);
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.colorBlue {
+    color: #1377d4;
+}
+
+/*table style*/
+table.table {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+/*button style*/
+
+
+/*margin class*/
+.margin0 {
+    margin: 0;
+}
+.mb_15 {
+    margin-bottom: 15px;
+}
+.mt_15 {
+    margin-top: 15px;
+}
+/*padding class*/
+.padding0 {
+    padding: 0;
+}
+.pt_15 {
+    padding-top: 15px;
+}
+.pb_15 {
+    padding-bottom: 15px;
+}
+
+
+input[type="checkbox"].margin0 {
+    margin: 0;
+}
+
+.width100 {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+/*border class*/
+.border0 {
+    border: 0;
+}
+/*box shadow*/
+.boxshadow0 {
+    box-shadow: none;
+}
+
+/*image class*/
+.imgcls {
+    margin: 5px;
+    width: auto;
+    height: auto;
+}
+
+
+/*tab style*/
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+}
+
+.form-group.form-group2 .form-control {
+    color: #333;
+    font-weight: 500;
+}

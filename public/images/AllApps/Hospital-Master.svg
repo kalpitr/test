@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" width="55" height="55">
+	<title>Hospital-Master</title>
+	<defs>
+		<image  width="51" height="51" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAMAAAANf8AYAAAAAXNSR0IB2cksfwAAAZ5QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////s+CzQAAAAIp0Uk5TdKo3AK7/U8b5wcfC4t2Au9G91v09B2T4l+je6v5I79Xsyno7HwsbNnC/yD8pfQFhm1tstMu4FT73SSLaBMUCzuYNpFldiK+LPEzQk8NuIO2QCM2ypxMze6uwjM9YVRdqKHIFCn8eI0qW5akcoRKKTZ38LPGSZQlEFEP75CdftgPTVxicOrHjlaIkkyEp2gAAAhVJREFUeJztlYlT00AUxlPWh1ApVYtGSrTIIaBCQaRAqFXAcnngAd5FSwEB5RLkEA+88b/226V0Umd3Q5iRGWf8Ztr39uX9stnNvhfD8HlSAWPMOESeVPifyTGHi4SKvTD+neGRv82UFAsFvDBetG+mNBg8Cv9Y0EXHiUIwZZzBrxDMCeaik0Rm1j0w5lQgUA4mHHBRBZEFc/ofONcHxZyJCFV6YXS1cLaquqb2XF19Q2ivzPkLuXd60bcnxmpscp6EqIlYs349VgvPrL3UermtKsbd9g4EO7X71sjz7C7hl/M+zVosHLK4hrnCHyxxNTu61s2hHni9zLieTPbB6086FUZkgCcNwhm6cRP/t/jwNpbkl9dCfBibLLw7RBV3WeIe0X0xHkG1jkqZBwg8FN4joscwT4ieivEzXEkZY7b9HM4L26E0AtXIGLex/30IYLoSO4PIGK5MKPdgEhlTeZGXiDRhQdNKJiNl2AzRrJJ5JZ8Hr/W1kqmTMnOw80qmXsoswEaVTIOUWYSdUn4Xlt5ImNgyUURTC60SZgUmrauft2x1zal1tvGOaDOj+56a7X+03/fDfAf0fcf8kIeUof3Sx09uvaqnJkfEVvBgtNXt3t/Mkc9fkDW68HWZD7fEPYxvKZWarR2uaKYje4fvolhFzanUGc6b80c0wVwZFu/1h3aJSHp1N6xl+EpSEz992/PRX47Yb+Ewf8/qz/z5AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="2" y="2" />
+</svg>

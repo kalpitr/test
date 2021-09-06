@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 11" width="15" height="11">
+	<title>email</title>
+	<defs>
+		<image  width="15" height="11" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAMAAACXmSduAAAAAXNSR0IB2cksfwAAAJ9QTFRF////9fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP79fP7YQATOgAAADV0Uk5TALDYxNe2eib/KnSI4ueA9ebrcvbxC+jtEPIv7iSDMmwUmxdpN32C4JQojY/e5IeBI/2r2rHCO7+GAAAAd0lEQVR4nEWOVxKCQABDn6hLxLKoWNau2Hu7/9lcHJR85U1mkkApKP9UqYIJVagWoTqNnJq0hJUh/mKbjrokkun1PQ6GkZTgvB0xlmPincvy6Wy+WK7S9SbLrbbstD8cfZ2RRSfOef+Fq7jdH8V+aOD5+v8L3nwAbhEIcvGS2KoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>
